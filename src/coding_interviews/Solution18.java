@@ -3,87 +3,40 @@ package coding_interviews;
 /**
  * @author 赵翔 xiangflightATfoxmaildotcom
  * @version coding_interviews
- * @date 2019-03-10 09:14
+ * @date 2019-03-10 10:15
  *
- * 调整数组顺序使奇数位于偶数前面
+ * 链表中倒数第k个结点
  *
  */
 
 public class Solution18 {
 
     /**
-     * 题目：输入一个整型数组，实现一个函数来调整该数组中数字的顺序，使得所有奇数位于
-     *      数组的前半部分，所有偶数位于数组的后半部分
+     * 题目：输入一个链表，输出该链表中倒数第k个结点。
      *
-     * @param array 数组
+     * @param head 头结点
+     * @param k 倒数第k个
+     * @return 倒数第k个结点
      */
-    public void reOrderArray1(int [] array) {
-        if (array == null || array.length == 0) {
-            return;
+    public ListNode findKthToTail(ListNode head,int k) {
+        if (head == null || k < 1) {
+            return null;
         }
-        int i = 0, j = array.length - 1;
-        while (true) {
-            while (isOdd(array[i]) && i < j) {
-                i++;
-            }
-            while (isEven(array[j]) && i < j) {
-                j--;
-            }
-            if (i >= j) {
-                break;
-            }
-            swap(array, i, j);
-            i++;
-            j--;
+        ListNode p = head;
+        ListNode q = head;
+        // 向前移，同时保证p不为null，且k > 0
+        while (p != null && k > 0) {
+            p = p.next;
+            k--;
         }
-    }
-
-    /**
-     * 保持奇数与奇数，偶数与偶数之间的顺序不变
-     *
-     * @param array 数组
-     */
-    public void reOrderArray2(int [] array) {
-        int oddCnt = 0;
-        for (int a: array) {
-            if (isOdd(a)) {
-                oddCnt++;
-            }
+        if (k > 0) {
+            return null;
         }
-        int[] newArr = array.clone();
-        int i = 0, j = oddCnt;
-        for (int a: newArr) {
-            if (isOdd(a)) {
-                array[i++] = a;
-            } else {
-                array[j++] = a;
-            }
+        while (p != null) {
+            p = p.next;
+            q = q.next;
         }
-    }
-
-    private void swap(int[] array, int i, int j) {
-        int tmp = array[i];
-        array[i] = array[j];
-        array[j] = tmp;
-    }
-
-
-    private boolean isOdd(int a) {
-        return (a & 0x1) != 0;
-    }
-
-    private boolean isEven(int a) {
-        return (a & 0x1) == 0;
-    }
-
-    public static void main(String[] args) {
-        Solution18 solution18 = new Solution18();
-        int[] arr = {1,2,3,4,5,6,7,8};
-        solution18.reOrderArray2(arr);
-        for (int a: arr) {
-            System.out.print(a + " ");
-        }
-        System.out.println();
+        return q;
     }
 
 }
