@@ -59,7 +59,18 @@ public class Solution19 {
      * @return 反转后链表的头结点
      */
     public ListNode reverseList3(ListNode head) {
-        return null;
+        // 终止条件
+        if (head == null || head.next == null) {
+            return head;
+        }
+        // 一直走到链表末尾
+        ListNode newHead = reverseList3(head.next);
+        // 将当前结点设置为后继结点的后继结点
+        ListNode next = head.next;
+        next.next = head;
+        // 设置前置结点为null
+        head.next = null;
+        return newHead;
     }
 
 }
