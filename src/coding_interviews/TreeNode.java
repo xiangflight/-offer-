@@ -10,7 +10,7 @@ package coding_interviews;
  */
 
 public class TreeNode {
-    private int val;
+    int val;
     TreeNode left;
     TreeNode right;
     TreeNode(int val) {

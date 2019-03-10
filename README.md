@@ -30,6 +30,9 @@
 |[17](src/coding_interviews/Solution17.java)|调整数组顺序，使奇数位于偶数前面|Reorder Odd Even In Array|
 |[18](src/coding_interviews/Solution18.java)|链表中倒数第k个结点|Find Kth Node To Tail|
 |[19](src/coding_interviews/Solution19.java)|反转链表|Reverse LinkedList|
+|[20](src/coding_interviews/Solution20.java)|合并两个排序的链表|Merge Two Sorted LinkedList|
+|[21](src/coding_interviews/Solution21.java)|树的子结构|Binary Tree B Is Part Of Binary Tree A|
+|[22](src/coding_interviews/Solution22.java)|二叉树的镜像|Mirror Of Binary Tree|
 
 ### Reference
 
