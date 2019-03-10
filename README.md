@@ -5,14 +5,14 @@
 
 |-|-|
 |:---:|:---:|
-|链表结点|ListNode|
-|二叉树结点|TreeNode|
+|链表结点|[ListNode](coding_interviews/ListNode)|
+|二叉树结点|[TreeNode](coding_interviews/TreeNode)|
 
 ### Questions
 
 |#|题目|Question|
 |:---:|:---:|:---:|
-|[02](coding_intervies/Solution2)|实现Singleton模式|Singleton Pattern|
+|[02](coding_interviews/Solution02)|实现Singleton模式|Singleton Pattern|
 |03|二维数组中的查找|Find Element In An Ordered 2D Array|
 |04|替换空格|Replace Blank|
 |05|从尾到头打印链表|Print LinkedList From Tail To Head|
