@@ -5,8 +5,8 @@
 
 |-|-|
 |:---:|:---:|
-|链表结点|[ListNode](coding_interviews/ListNode)|
-|二叉树结点|[TreeNode](coding_interviews/TreeNode)|
+|链表结点|[ListNode](src/coding_interviews/ListNode.java)|
+|二叉树结点|[TreeNode](src/coding_interviews/TreeNode.java)|
 
 ### Questions
 
