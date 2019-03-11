@@ -37,6 +37,8 @@
 |[24](src/coding_interviews/Solution24.java)|包含min函数的栈|Stack with Minimum Function|
 |[25](src/coding_interviews/Solution25.java)|栈的压入、弹出序列|Is Pop Order In Stack|
 |[26](src/coding_interviews/Solution26.java)|从上往下打印二叉树|Print Binary Tree From Top To Bottom|
+|[27](src/coding_interviews/Solution27.java)|二叉搜索树的后序遍历序列|Verify Sequence of BST|
+|[28](src/coding_interviews/Solution28.java)|二叉树中和为某一值的路径|Find Path|
 
 ### Reference
 
