@@ -33,6 +33,10 @@
 |[20](src/coding_interviews/Solution20.java)|合并两个排序的链表|Merge Two Sorted LinkedList|
 |[21](src/coding_interviews/Solution21.java)|树的子结构|Binary Tree B Is Part Of Binary Tree A|
 |[22](src/coding_interviews/Solution22.java)|二叉树的镜像|Mirror Of Binary Tree|
+|[23](src/coding_interviews/Solution23.java)|顺时针打印矩阵|Print Matrix Clockwisely|
+|[24](src/coding_interviews/Solution24.java)|包含min函数的栈|Stack with Minimum Function|
+|[25](src/coding_interviews/Solution25.java)|栈的压入、弹出序列|Is Pop Order In Stack|
+|[26](src/coding_interviews/Solution26.java)|从上往下打印二叉树|Print Binary Tree From Top To Bottom|
 
 ### Reference
 
