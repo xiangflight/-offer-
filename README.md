@@ -7,6 +7,7 @@
 |:---:|:---:|
 |链表结点|[ListNode](src/coding_interviews/ListNode.java)|
 |二叉树结点|[TreeNode](src/coding_interviews/TreeNode.java)|
+|复杂链表结点|[RandomListNode](src/coding_interviews/RandomListNode.java)|
 
 ### Questions
 
@@ -39,6 +40,8 @@
 |[26](src/coding_interviews/Solution26.java)|从上往下打印二叉树|Print Binary Tree From Top To Bottom|
 |[27](src/coding_interviews/Solution27.java)|二叉搜索树的后序遍历序列|Verify Sequence of BST|
 |[28](src/coding_interviews/Solution28.java)|二叉树中和为某一值的路径|Find Path|
+|[29](src/coding_interviews/Solution29.java)|复杂链表的复制|Copy Of Random LinkedList|
+|[30](src/coding_interviews/Solution30.java)|二叉搜索树与双向链表|Convert Binary Search Tree To Doubly-LinkedList|
 
 ### Reference
 
