@@ -42,6 +42,8 @@
 |[28](src/coding_interviews/Solution28.java)|二叉树中和为某一值的路径|Find Path|
 |[29](src/coding_interviews/Solution29.java)|复杂链表的复制|Copy Of Random LinkedList|
 |[30](src/coding_interviews/Solution30.java)|二叉搜索树与双向链表|Convert Binary Search Tree To Doubly-LinkedList|
+|[31](src/coding_interviews/Solution31.java)|字符串的排列|Permutation Of String|
+|[32](src/coding_interviews/Solution32.java)|数组中出现次数超过一半的数字|More Than Half Number|
 
 ### Reference
 
