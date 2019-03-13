@@ -44,6 +44,7 @@
 |[30](src/coding_interviews/Solution30.java)|二叉搜索树与双向链表|Convert Binary Search Tree To Doubly-LinkedList|
 |[31](src/coding_interviews/Solution31.java)|字符串的排列|Permutation Of String|
 |[32](src/coding_interviews/Solution32.java)|数组中出现次数超过一半的数字|More Than Half Number|
+|[33](src/coding_interviews/Solution33.java)|最小的k个数|Get Least K Numbers|
 
 ### Reference
 
