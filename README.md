@@ -47,6 +47,7 @@
 |[33](src/coding_interviews/Solution33.java)|最小的k个数|Get Least K Numbers|
 |[34](src/coding_interviews/Solution34.java)|连续子数组最大和|Maximum Sum of Continuous SubArray|
 |[35](src/coding_interviews/Solution35.java)|从1到n整数中1出现的次数|Number Of 1 Between 1 And N|
+|[38](src/coding_interviews/Solution38.java)|第一个只出现一次的字符|First Not Repeating Character|
 
 ### Reference
 
