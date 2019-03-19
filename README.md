@@ -51,6 +51,7 @@
 |[34](src/coding_interviews/Solution34.java)|连续子数组最大和|Maximum Sum of Continuous SubArray|
 |[35](src/coding_interviews/Solution35.java)|从1到n整数中1出现的次数|Number Of 1 Between 1 And N|
 |[38](src/coding_interviews/Solution38.java)|第一个只出现一次的字符|First Not Repeating Character|
+|[39](src/coding_interviews/Solution39.java)|数组中的逆序对|Inverse Pairs in Array|
 |[40](src/coding_interviews/Solution40.java)|两个链表的第一个公共结点|Find The First Common Node|
 |[41](src/coding_interviews/Solution41.java)|数字在排序数组中出现的次数|Get Number Of K|
 |[42](src/coding_interviews/Solution42.java)|二叉树的深度|Depth Of Binary Tree|
