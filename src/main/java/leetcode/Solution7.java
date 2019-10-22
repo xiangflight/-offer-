@@ -52,15 +52,13 @@ public class Solution7 {
         int ans = 0;
         int n;
         while (x != 0) {
-            while (x != 0) {
-                n = x % 10;
-                // ans > (MAX_VALUE - n) / 10, but n / 10 always is zero, omit.
-                if (ans > MAX_VALUE / 10 || ans < MIN_VALUE / 10) {
-                    return 0;
-                }
-                ans = ans * 10 + n;
-                x /= 10;
+            n = x % 10;
+            // ans > (MAX_VALUE - n) / 10, but n / 10 always is zero, omit.
+            if (ans > MAX_VALUE / 10 || ans < MIN_VALUE / 10) {
+                return 0;
             }
+            ans = ans * 10 + n;
+            x /= 10;
         }
         return ans;
     }

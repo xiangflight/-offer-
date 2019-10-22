@@ -9,16 +9,12 @@ import java.util.Objects;
 
 public class ListNode {
 
-    private int val;
+    public int val;
 
-    private ListNode next;
+    public ListNode next;
 
     public ListNode(int x) {
         val = x;
-    }
-
-    public void setNext(ListNode next) {
-        this.next = next;
     }
 
     @Override

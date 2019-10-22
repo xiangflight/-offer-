@@ -10,12 +10,28 @@ import leetcode.ds.ListNode;
 public class Solution2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ret = new ListNode(7);
-        ListNode node5 = new ListNode(0);
-        ListNode node6 = new ListNode(8);
-        ret.setNext(node5);
-        node5.setNext(node6);
-        return ret;
+        ListNode p = l1, q = l2;
+        ListNode dummy = new ListNode(-1);
+        ListNode tmp = dummy;
+        int carry = 0;
+        while (p != null || q != null) {
+            int x = (p == null) ? 0: p.val;
+            int y = (q == null) ? 0: q.val;
+            int sum = x + y + carry;
+            tmp.next = new ListNode(sum % 10);
+            carry = sum / 10;
+            tmp = tmp.next;
+            if (p != null) {
+                p = p.next;
+            }
+            if (q != null) {
+                q = q.next;
+            }
+        }
+        if (carry != 0) {
+            tmp.next = new ListNode(1);
+        }
+        return dummy.next;
     }
 
 }
