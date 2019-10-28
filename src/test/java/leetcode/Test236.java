@@ -1,6 +1,7 @@
 package leetcode;
 
 import leetcode.ds.TreeNode;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -15,6 +16,7 @@ public class Test236 {
     private final Solution236 solution = new Solution236();
 
     @Test
+    @DisplayName("236 Lowest Common Ancestor of Binary Tree")
     void testSolution236() {
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(5);
