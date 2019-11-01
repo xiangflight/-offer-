@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @date 2019/10/24
  */
 
-public class Test236 {
+class Test236 {
 
     private final Solution236 solution = new Solution236();
 
@@ -31,7 +31,7 @@ public class Test236 {
         TreeNode p = root.left;
         TreeNode q = root.right;
 
-        assertEquals(root, solution.lowestCommonAncestorRecursive(root, p, q));
+        assertEquals(root, solution.lowestCommonAncestor(root, p, q));
     }
 
 }

@@ -8,9 +8,9 @@ import static java.lang.Integer.MIN_VALUE;
  * @date 2019/10/21
  */
 
-public class Solution7 {
+class Solution7 {
 
-    public int reverse(int x) {
+    int reverse(int x) {
         boolean positive = x >= 0;
         x = positive ? x : -x;
         int res = 0;
@@ -32,7 +32,7 @@ public class Solution7 {
         return (MAX_VALUE - x % 10) / 10 < res;
     }
 
-    public int reverseOfficial(int x) {
+    int reverseOfficial(int x) {
         int ans = 0;
         while (x != 0) {
             int pop = x % 10;
@@ -48,7 +48,7 @@ public class Solution7 {
         return ans;
     }
 
-    public int reverseThird(int x) {
+    int reverseThird(int x) {
         int ans = 0;
         int n;
         while (x != 0) {

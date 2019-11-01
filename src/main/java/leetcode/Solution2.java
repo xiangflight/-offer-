@@ -7,16 +7,16 @@ import leetcode.ds.ListNode;
  * @date 2019/10/21
  */
 
-public class Solution2 {
+class Solution2 {
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode p = l1, q = l2;
         ListNode dummy = new ListNode(-1);
         ListNode tmp = dummy;
         int carry = 0;
         while (p != null || q != null) {
-            int x = (p == null) ? 0: p.val;
-            int y = (q == null) ? 0: q.val;
+            int x = (p == null) ? 0 : p.val;
+            int y = (q == null) ? 0 : q.val;
             int sum = x + y + carry;
             tmp.next = new ListNode(sum % 10);
             carry = sum / 10;
