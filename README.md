@@ -1,4 +1,4 @@
-# DSA(Data Structure and Algorithm) + Practice(include JUnit 5 Test)
+# DSA(Data Structure and Algorithm) + Practice
 
 ## DSA
 
