@@ -15,11 +15,24 @@ class Test03 {
     private RepeatedNumber repeatedNumber = new RepeatedNumber();
 
     @Test
-    @DisplayName("3 Repeated number in array")
-    void testRepeatedNum() {
+    void testRepeatedNumber() {
         int[] arr = {2, 3, 1, 0, 2, 5, 3};
-        int ret = repeatedNumber.repeated(arr);
-        assertEquals(ret, 2);
+        int ret = 2;
+        testRepeatedNumUsingHashtable(arr, ret);
+        testRepeatedNumUsingSorting(arr, ret);
+        testRepeatedNumberInPlace(arr, ret);
+    }
+
+    void testRepeatedNumUsingHashtable(int[] arr, int expected) {
+        assertEquals(repeatedNumber.repeatedUsingHashtable(arr), expected);
+    }
+
+    void testRepeatedNumUsingSorting(int[] arr, int expected) {
+        assertEquals(repeatedNumber.repeatedUsingSorting(arr), expected);
+    }
+
+    void testRepeatedNumberInPlace(int[] arr, int expected) {
+        assertEquals(repeatedNumber.repeatedInPlace(arr), expected);
     }
 
 }
