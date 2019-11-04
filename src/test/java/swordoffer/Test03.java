@@ -12,27 +12,47 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test03 {
 
-    private RepeatedNumber repeatedNumber = new RepeatedNumber();
+    private final RepeatedNumber repeatedNumber = new RepeatedNumber();
+    private final DuplicateNumber duplicateNumber = new DuplicateNumber();
 
     @Test
-    void testRepeatedNumber() {
+    @DisplayName("Repeated Number Using Hashtable")
+    void testRepeatedNumUsingHashtable() {
         int[] arr = {2, 3, 1, 0, 2, 5, 3};
         int ret = 2;
-        testRepeatedNumUsingHashtable(arr, ret);
-        testRepeatedNumUsingSorting(arr, ret);
-        testRepeatedNumberInPlace(arr, ret);
+        assertEquals(repeatedNumber.repeatedUsingHashtable(arr), ret);
     }
 
-    void testRepeatedNumUsingHashtable(int[] arr, int expected) {
-        assertEquals(repeatedNumber.repeatedUsingHashtable(arr), expected);
+    @Test
+    @DisplayName("Repeated Number Using Sorting")
+    void testRepeatedNumUsingSorting() {
+        int[] arr = {2, 3, 1, 0, 2, 5, 3};
+        int ret = 2;
+        assertEquals(repeatedNumber.repeatedUsingSorting(arr), ret);
     }
 
-    void testRepeatedNumUsingSorting(int[] arr, int expected) {
-        assertEquals(repeatedNumber.repeatedUsingSorting(arr), expected);
+    @Test
+    @DisplayName("Repeated Number In Place")
+    void testRepeatedNumberInPlace() {
+        int[] arr = {2, 3, 1, 0, 2, 5, 3};
+        int ret = 2;
+        assertEquals(repeatedNumber.repeatedInPlace(arr), ret);
     }
 
-    void testRepeatedNumberInPlace(int[] arr, int expected) {
-        assertEquals(repeatedNumber.repeatedInPlace(arr), expected);
+    @Test
+    @DisplayName("Repeated Number In Place Using Swap")
+    void testRepeatedNumberInPlaceUsingSwap() {
+        int[] arr = {2, 3, 1, 0, 2, 5, 3};
+        int ret = 2;
+        assertEquals(repeatedNumber.repeatedInPlaceUsingSwap(arr), ret);
+    }
+
+    @Test
+    @DisplayName("Repeated Number Using Divider And Conquer")
+    void testDuplicateNumber() {
+        int[] arr = {2, 3, 5, 4, 3, 2, 6, 7};
+        int ret = 3;
+        assertEquals(ret, duplicateNumber.duplicateNumInArr(arr));
     }
 
 }

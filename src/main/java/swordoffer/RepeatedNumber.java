@@ -1,5 +1,6 @@
 package swordoffer;
 
+import utils.ArrayUtil;
 import utils.Assert;
 
 import java.util.Arrays;
@@ -15,14 +16,14 @@ class RepeatedNumber {
      * 时间复杂度 O(n)
      * 空间复杂度 O(n)
      *
-     * @param num 输入数组
+     * @param nums 输入数组
      * @return 重复数字
      */
-    int repeatedUsingHashtable(int[] num) {
-        Assert.checkNotEmpty(num);
+    int repeatedUsingHashtable(int[] nums) {
+        Assert.checkNotEmpty(nums);
         // take mem as cache, so index of mem is [0..n-1]
-        int[] mem = new int[num.length];
-        for (int n: num) {
+        int[] mem = new int[nums.length];
+        for (int n : nums) {
             if (mem[n] != 0) {
                 return n;
             }
@@ -35,15 +36,15 @@ class RepeatedNumber {
      * 时间复杂度 O(nlogn)
      * 空间复杂度 O(1)
      *
-     * @param num 输入数组
+     * @param nums 输入数组
      * @return 重复数字
      */
-    int repeatedUsingSorting(int[] num) {
-        assert num != null && num.length != 0;
-        Arrays.sort(num);
-        for (int i = 0; i < num.length - 1; i++) {
-            if (num[i] == num[i+1]) {
-                return num[i];
+    int repeatedUsingSorting(int[] nums) {
+        assert nums != null && nums.length != 0;
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == nums[i + 1]) {
+                return nums[i];
             }
         }
         throw new IllegalArgumentException("no repeated number exists in the array");
@@ -52,20 +53,42 @@ class RepeatedNumber {
     /**
      * 时间复杂度 O(n)
      * 空间复杂度 O(1)
-     *
+     * <p>
      * in place operation
      *
-     * @param num 输入数组
+     * @param nums 输入数组
      * @return 重复数字
      */
-    int repeatedInPlace(int[] num) {
-        for (int i = 0; i < num.length; i++) {
-            if (num[num[i]] < 0) {
-                return num[i];
+    int repeatedInPlace(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            int accessIndex = Math.abs(nums[i]);
+            if (nums[accessIndex] < 0) {
+                // has visited
+                return accessIndex;
             }
-            num[num[i]] = - num[num[i]];
+            // not visited
+            nums[accessIndex] = - nums[accessIndex];
         }
         throw new IllegalArgumentException("no repeated number exists in the array");
     }
 
+    /**
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(1)
+     *
+     * @param nums 输入数组
+     * @return 重复数字
+     */
+    int repeatedInPlaceUsingSwap(int[] nums) {
+        Assert.checkNotEmpty(nums);
+        for (int i = 0; i < nums.length; i++) {
+            while (nums[i] != i) {
+                if (nums[i] == nums[nums[i]]) {
+                    return nums[i];
+                }
+                ArrayUtil.swap(nums, i, nums[i]);
+            }
+        }
+        throw new IllegalArgumentException("no repeated number exists in the array");
+    }
 }

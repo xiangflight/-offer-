@@ -22,4 +22,6 @@
 | # | Title | Category | Code | Test |
 | :---: | :---: | :---: | :-------: | :-------: | 
 | 2 | 实现 Singleton 模式 | Design Pattern |[DCL](src/main/java/swordoffer/DclSingleton.java) [OnDemand](src/main/java/swordoffer/StaticSingleton.java) | [Test](src/test/java/leetcode/Test1.java) |
-| 3 | 数组中重复的数字 | DSA | [Java](src/main/java/swordoffer/RepeatedNumber.java) | [Test](src/test/java/swordoffer/Test03.java) |
+| 3 | 数组中重复的数字[1] | DSA | [Java](src/main/java/swordoffer/RepeatedNumber.java) | [Test](src/test/java/swordoffer/Test03.java) |
+| 3 | 数组中重复的数字[2] | DSA | [Java](src/main/java/swordoffer/DuplicateNumber.java) | [Test](src/test/java/swordoffer/Test03.java) |
+| 4 | 二维数组中的查找 | DSA | [Java](src/main/java/swordoffer/SearchInSortedMatrix.java) | [Test](src/test/java/swordoffer/Test04.java) |

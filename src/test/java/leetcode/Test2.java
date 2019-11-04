@@ -3,7 +3,7 @@ package leetcode;
 import leetcode.ds.ListNode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import utils.ArrayToListNodeUtil;
+import utils.ArrayUtil;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -22,9 +22,9 @@ class Test2 {
         int[] first = {2, 4, 5};
         int[] second = {5, 6, 4};
         int[] third = {7, 0, 0, 1};
-        ListNode l1 = ArrayToListNodeUtil.toList(first);
-        ListNode l2 = ArrayToListNodeUtil.toList(second);
-        ListNode ans = ArrayToListNodeUtil.toList(third);
+        ListNode l1 = ArrayUtil.toList(first);
+        ListNode l2 = ArrayUtil.toList(second);
+        ListNode ans = ArrayUtil.toList(third);
         assertEquals(ans, solution.addTwoNumbers(l1, l2));
     }
 

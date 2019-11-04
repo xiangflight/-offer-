@@ -7,7 +7,7 @@ import leetcode.ds.ListNode;
  * @date 2019/10/22
  */
 
-public class ArrayToListNodeUtil {
+public class ArrayUtil {
 
     public static ListNode toList(int[] arr) {
         ListNode dummy = new ListNode(-1);
@@ -17,6 +17,12 @@ public class ArrayToListNodeUtil {
             tmp = tmp.next;
         }
         return dummy.next;
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
 }
