@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Test1 {
 
-    private final Solution1 solution = new Solution1();
+    private final Solution0001 solution = new Solution0001();
 
     @Test
     @DisplayName("1 Two Sum")

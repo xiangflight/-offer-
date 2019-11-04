@@ -7,7 +7,7 @@ import leetcode.ds.TreeNode;
  * @date 2019/10/22
  */
 
-class Solution236 {
+class Solution0236 {
 
     TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {

@@ -5,7 +5,7 @@ package leetcode;
  * @date 2019/11/1
  */
 
-public class Solution11 {
+public class Solution0011 {
 
     /**
      * brute force solution

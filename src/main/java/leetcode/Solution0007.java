@@ -8,7 +8,7 @@ import static java.lang.Integer.MIN_VALUE;
  * @date 2019/10/21
  */
 
-class Solution7 {
+class Solution0007 {
 
     int reverse(int x) {
         boolean positive = x >= 0;

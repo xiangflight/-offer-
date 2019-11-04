@@ -8,7 +8,7 @@ import java.util.Map;
  * @date 2019/10/21
  */
 
-class Solution1 {
+class Solution0001 {
 
     /**
      * find the two numbers, so their sum equals to target

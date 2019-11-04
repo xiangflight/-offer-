@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test7 {
 
-    private final Solution7 solution = new Solution7();
+    private final Solution0007 solution = new Solution0007();
 
     @ParameterizedTest(name = "Reverse Integer {0} to {1}")
     @CsvSource({

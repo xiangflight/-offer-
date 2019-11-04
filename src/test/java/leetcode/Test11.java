@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test11 {
 
-    private final Solution11 solution = new Solution11();
+    private final Solution0011 solution = new Solution0011();
 
     @Test
     @DisplayName("11 Container with Most Water")

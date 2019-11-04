@@ -7,7 +7,7 @@ import leetcode.ds.ListNode;
  * @date 2019/10/21
  */
 
-class Solution2 {
+class Solution0002 {
 
     ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode p = l1, q = l2;

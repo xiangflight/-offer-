@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test236 {
 
-    private final Solution236 solution = new Solution236();
+    private final Solution0236 solution = new Solution0236();
 
     @Test
     @DisplayName("236 Lowest Common Ancestor of Binary Tree")

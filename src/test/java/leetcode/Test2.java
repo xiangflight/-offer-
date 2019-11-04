@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Test2 {
 
-    private final Solution2 solution = new Solution2();
+    private final Solution0002 solution = new Solution0002();
 
     @Test
     @DisplayName("2 Add Two Numbers")
