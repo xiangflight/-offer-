@@ -12,4 +12,10 @@ public class Assert {
             throw new IllegalArgumentException("arr should not be null or empty");
         }
     }
+
+    public static void checkNotNull(String str) {
+        if (str == null) {
+            throw new IllegalArgumentException("string should not be null");
+        }
+    }
 }
