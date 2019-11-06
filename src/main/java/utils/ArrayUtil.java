@@ -1,6 +1,6 @@
 package utils;
 
-import leetcode.ds.ListNode;
+import dsa.ListNode;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom

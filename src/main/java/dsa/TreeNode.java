@@ -1,4 +1,4 @@
-package leetcode.ds;
+package dsa;
 
 import java.util.Objects;
 
@@ -21,8 +21,12 @@ public class TreeNode {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         TreeNode treeNode = (TreeNode) o;
         return val == treeNode.val &&
                 Objects.equals(left, treeNode.left) &&
@@ -40,4 +44,13 @@ public class TreeNode {
                 "val=" + val +
                 '}';
     }
+
+    /*
+     * 除此之外，以下给出 前序，中序，后序遍历的递归和非递归方法，均属于 DFS
+     */
+
+    /*
+     * 树的层序遍历，属于 BFS
+     */
+
 }

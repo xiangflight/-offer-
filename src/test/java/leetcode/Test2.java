@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.ds.ListNode;
+import dsa.ListNode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.ArrayUtil;

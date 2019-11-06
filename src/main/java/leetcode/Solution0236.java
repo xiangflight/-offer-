@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.ds.TreeNode;
+import dsa.TreeNode;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom

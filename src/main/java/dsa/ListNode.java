@@ -1,4 +1,4 @@
-package leetcode.ds;
+package dsa;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-# DSA(Data Structure and Algorithm) + Practice
+# DSA(Data Structures and Algorithm) + Practice
 
 ## DSA
 
@@ -17,8 +17,6 @@
 
 #### 剑指offer
 
-在线 OJ 平台：https://www.nowcoder.com/ta/coding-interviews
-
 | # | Title | Category | Code | Test |
 | :---: | :---: | :---: | :-------: | :-------: | 
 | 2 | 实现 Singleton 模式 | 设计模式 |[DCL](src/main/java/swordoffer/DclSingleton.java) [OnDemand](src/main/java/swordoffer/StaticSingleton.java) | [Test](src/test/java/leetcode/Test1.java) |
@@ -26,3 +24,4 @@
 | 3 | 数组中重复的数字[2] | 数组 | [Java](src/main/java/swordoffer/DuplicateNumber.java) | [Test](src/test/java/swordoffer/Test03.java) |
 | 4 | 二维数组中的查找 | 数组 | [Java](src/main/java/swordoffer/SearchInSortedMatrix.java) | [Test](src/test/java/swordoffer/Test04.java) |
 | 5 | 替换空格 | 字符串 | [Java](src/main/java/swordoffer/ReplaceSpaces.java) | [Test](src/test/java/swordoffer/Test05.java) |
+| 6 | 从尾到头打印链表 | 链表 | [Java](src/main/java/swordoffer/PrintFromTailToHead.java) | [Test](src/test/java/swordoffer/Test06.java) |
