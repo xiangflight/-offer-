@@ -1,6 +1,6 @@
 package leetcode;
 
-import dsa.TreeNode;
+import ds.tree.TreeNode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

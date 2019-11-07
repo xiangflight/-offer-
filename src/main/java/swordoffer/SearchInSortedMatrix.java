@@ -6,7 +6,6 @@ package swordoffer;
  */
 
 
-
 class SearchInSortedMatrix {
 
     /**

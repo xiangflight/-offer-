@@ -1,6 +1,6 @@
 package swordoffer;
 
-import dsa.ListNode;
+import ds.linkedlist.ListNode;
 import utils.Assert;
 
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ class PrintFromTailToHead {
         if (node.next != null) {
             recursivePrint(node.next, res);
         }
-       res.add(node.val);
+        res.add(node.val);
     }
 
     List<Integer> printFromTailToHeadUsingStack(ListNode head) {

@@ -1,6 +1,6 @@
 package utils;
 
-import dsa.ListNode;
+import ds.linkedlist.ListNode;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom

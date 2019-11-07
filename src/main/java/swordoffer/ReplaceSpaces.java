@@ -19,7 +19,7 @@ class ReplaceSpaces {
         Assert.checkNotNull(token);
         final char space = ' ';
         int cnt = 0;
-        for (char c: str.toCharArray()) {
+        for (char c : str.toCharArray()) {
             if (space == c) {
                 cnt++;
             }

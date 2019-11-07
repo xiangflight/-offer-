@@ -1,7 +1,9 @@
 package swordoffer;
 
-import dsa.ListNode;
-import org.junit.jupiter.api.*;
+import ds.linkedlist.ListNode;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import utils.ArrayUtil;
 
 import java.util.Arrays;

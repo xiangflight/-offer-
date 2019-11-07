@@ -7,14 +7,15 @@ package swordoffer;
 
 class StaticSingleton {
 
-    private StaticSingleton() {}
-
-    private static class InstanceHolder {
-        private static final StaticSingleton INSTANCE = new StaticSingleton();
+    private StaticSingleton() {
     }
 
     static StaticSingleton getInstance() {
         return InstanceHolder.INSTANCE;
+    }
+
+    private static class InstanceHolder {
+        private static final StaticSingleton INSTANCE = new StaticSingleton();
     }
 
 }

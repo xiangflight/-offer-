@@ -13,7 +13,7 @@ class Solution0001 {
     /**
      * find the two numbers, so their sum equals to target
      *
-     * @param nums input array
+     * @param nums   input array
      * @param target target value
      * @return indexes of two numbers
      */

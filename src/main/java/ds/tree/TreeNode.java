@@ -1,4 +1,4 @@
-package dsa;
+package ds.tree;
 
 import java.util.Objects;
 
@@ -9,14 +9,16 @@ import java.util.Objects;
 
 public class TreeNode {
 
-    public int val;
-
     public TreeNode left;
-
     public TreeNode right;
+    private int val;
 
     public TreeNode(int x) {
         val = x;
+    }
+
+    public int getVal() {
+        return val;
     }
 
     @Override
@@ -44,13 +46,5 @@ public class TreeNode {
                 "val=" + val +
                 '}';
     }
-
-    /*
-     * 除此之外，以下给出 前序，中序，后序遍历的递归和非递归方法，均属于 DFS
-     */
-
-    /*
-     * 树的层序遍历，属于 BFS
-     */
 
 }

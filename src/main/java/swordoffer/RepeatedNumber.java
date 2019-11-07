@@ -67,7 +67,7 @@ class RepeatedNumber {
                 return accessIndex;
             }
             // not visited
-            nums[accessIndex] = - nums[accessIndex];
+            nums[accessIndex] = -nums[accessIndex];
         }
         throw new IllegalArgumentException("no repeated number exists in the array");
     }
