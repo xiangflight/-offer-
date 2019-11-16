@@ -3,10 +3,10 @@ package ds.array;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/15
- *
+ * <p>
  * 数组:
- *   1. 数组的插入、删除、随机访问
- *   2. 数组中元素类型是 int
+ * 1. 数组的插入、删除、随机访问
+ * 2. 数组中元素类型是 int
  */
 
 public class Array {
@@ -32,6 +32,23 @@ public class Array {
         this.data = new int[capacity];
         this.size = capacity;
         this.len = 0;
+    }
+
+    public static void main(String[] args) {
+        Array arr = new Array(5);
+        arr.printAll();                     // 0 0 0 0 0
+        arr.insert(0, 3);
+        arr.printAll();                     // 3 0 0 0 0
+        arr.insert(0, 4);
+        arr.printAll();                     // 4 3 0 0 0
+        arr.insert(1, 5);
+        arr.printAll();                     // 4 5 3 0 0
+        arr.insert(3, 9);
+        arr.printAll();                     // 4 5 3 9 0
+        arr.insert(3, 10);
+        arr.printAll();                     // 4 5 3 10 9
+        arr.insert(3, 10);
+        arr.printAll();                     // 4 5 3 10 9 无可插入位置
     }
 
     /**
@@ -65,7 +82,7 @@ public class Array {
         }
         // 所有 index 位置之后的元素后移
         for (int i = len; i > index; --i) {
-            data[i] = data[i-1];
+            data[i] = data[i - 1];
         }
         data[index] = value;
         ++len;
@@ -83,7 +100,7 @@ public class Array {
             return false;
         }
         for (int i = index + 1; i < len; ++i) {
-            data[i-1] = data[i];
+            data[i - 1] = data[i];
         }
         --len;
         return true;
@@ -93,27 +110,10 @@ public class Array {
      * 打印所有元素
      */
     private void printAll() {
-        for (int val: data) {
+        for (int val : data) {
             System.out.print(val + " ");
         }
         System.out.println();
-    }
-
-    public static void main(String[] args) {
-        Array arr = new Array(5);
-        arr.printAll();                     // 0 0 0 0 0
-        arr.insert(0, 3);
-        arr.printAll();                     // 3 0 0 0 0
-        arr.insert(0, 4);
-        arr.printAll();                     // 4 3 0 0 0
-        arr.insert(1, 5);
-        arr.printAll();                     // 4 5 3 0 0
-        arr.insert(3, 9);
-        arr.printAll();                     // 4 5 3 9 0
-        arr.insert(3, 10);
-        arr.printAll();                     // 4 5 3 10 9
-        arr.insert(3, 10);
-        arr.printAll();                     // 4 5 3 10 9 无可插入位置
     }
 
 }

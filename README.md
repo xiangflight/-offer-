@@ -7,7 +7,7 @@
 
 | # | 名称 | 结构 | 操作 |
 | :---: | :---: | :---: | :---: | 
-| 1 | 数组 | [Array](src/main/java/ds/array/Array.java) |  |
+| 1 | 数组 | [Array](src/main/java/ds/array/Array.java) [GenericArray](src/main/java/ds/array/GenericArray.java) |  |
 | 2 | 链表 | [ListNode](src/main/java/ds/linkedlist/ListNode.java) |  |
 | 3 | 二叉树 | [TreeNode](src/main/java/ds/tree/TreeNode.java) |  |
 
