@@ -5,10 +5,10 @@
 ### Data Structures
 
 
-| # | 名称 | 结构 | 操作 |
+| # | 名称 | 结构 | 额外 |
 | :---: | :---: | :---: | :---: | 
 | 1 | 数组 | [Array](src/main/java/ds/array/Array.java) [GenericArray](src/main/java/ds/array/GenericArray.java) |  |
-| 2 | 链表 | [ListNode](src/main/java/ds/linkedlist/ListNode.java) |  |
+| 2 | 链表 | [ListNode](src/main/java/ds/linkedlist/ListNode.java) [SinglyLinkedList](src/main/java/ds/linkedlist/SinglyLinkedList.java) | [LRUBaseLinkedList](src/main/java/ds/linkedlist/LRUBaseLinkedList.java) [LRUBasedArray](src/main/java/ds/linkedlist/LRUBasedArray.java) [LinkedListAlgo](src/main/java/ds/linkedlist/LinkedListAlgo.java)|
 | 3 | 二叉树 | [TreeNode](src/main/java/ds/tree/TreeNode.java) |  |
 
 
