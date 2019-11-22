@@ -19,7 +19,7 @@
 | # | 名称 | 示例 | 
 | :---: | :---: | :---: |
 | 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  | 
-| 2 | 排序 | |
+| 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) |
 
 //todo
 

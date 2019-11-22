@@ -20,11 +20,12 @@ public interface ISort {
         Assert.checkNotEmpty(arr);
         sortAscend(arr, arr.length);
     }
+
     /**
      * 对长度为 n 的数组进行排序
      *
      * @param arr 数组
-     * @param n 数组长度
+     * @param n   数组长度
      */
     void sortAscend(int[] arr, int n);
 
@@ -32,8 +33,8 @@ public interface ISort {
      * 交换数组中 i 和 j 位置上元素值
      *
      * @param arr 数组
-     * @param i 位置 i
-     * @param j 位置 j
+     * @param i   位置 i
+     * @param j   位置 j
      */
     default void swap(int[] arr, int i, int j) {
         int temp = arr[i];

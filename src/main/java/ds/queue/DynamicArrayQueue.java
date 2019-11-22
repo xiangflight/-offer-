@@ -3,11 +3,11 @@ package ds.queue;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/19
- *
+ * <p>
  * 动态数组实现的队列
  */
 
-public class DynamicArrayQueue implements IQueue{
+public class DynamicArrayQueue implements IQueue {
 
     private String[] items;
     private int n;
@@ -18,6 +18,16 @@ public class DynamicArrayQueue implements IQueue{
     public DynamicArrayQueue(int capacity) {
         items = new String[capacity];
         n = capacity;
+    }
+
+    public static void main(String[] args) {
+        DynamicArrayQueue queue = new DynamicArrayQueue(3);
+        queue.enqueue("a");
+        queue.enqueue("b");
+        queue.enqueue("c");
+        queue.printAll();
+        queue.dequeue();
+        queue.printAll();
     }
 
     @Override
@@ -53,16 +63,6 @@ public class DynamicArrayQueue implements IQueue{
             System.out.print(items[i] + " ");
         }
         System.out.println();
-    }
-
-    public static void main(String[] args) {
-        DynamicArrayQueue queue = new DynamicArrayQueue(3);
-        queue.enqueue("a");
-        queue.enqueue("b");
-        queue.enqueue("c");
-        queue.printAll();
-        queue.dequeue();
-        queue.printAll();
     }
 
 }

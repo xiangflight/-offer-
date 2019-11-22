@@ -3,9 +3,8 @@ package ds.queue;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/19
- *
+ * <p>
  * 链表实现的队列
- *
  */
 
 public class QueueBasedOnLinkedList implements IQueue {

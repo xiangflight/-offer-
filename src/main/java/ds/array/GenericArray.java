@@ -36,6 +36,14 @@ public class GenericArray<T> {
         this(10);
     }
 
+    public static void main(String[] args) {
+        GenericArray<Person> arr = new GenericArray<>();
+        System.out.println(arr);
+        arr.addFirst(new Person(12, "Millie"));
+        // ArrayStoreException
+        System.out.println(arr);
+    }
+
     /**
      * 获取数组大小
      *
@@ -113,7 +121,7 @@ public class GenericArray<T> {
             resize(2 * data.length);
         }
         for (int i = len - 1; i >= index; i--) {
-            data[i+1] = data[i];
+            data[i + 1] = data[i];
         }
         data[index] = e;
         len++;
@@ -225,14 +233,6 @@ public class GenericArray<T> {
         if (index < 0 || index >= len) {
             throw new IllegalArgumentException("Remove failed! Require index >= 0 and index < len");
         }
-    }
-
-    public static void main(String[] args) {
-        GenericArray<Person> arr = new GenericArray<>();
-        System.out.println(arr);
-        arr.addFirst(new Person(12, "Millie"));
-        // ArrayStoreException
-        System.out.println(arr);
     }
 
 }

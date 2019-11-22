@@ -8,6 +8,18 @@ package ds.stack;
 public class StackBasedOnLinkedList {
     private Node top;
 
+    public static void main(String[] args) {
+        StackBasedOnLinkedList stack = new StackBasedOnLinkedList();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.printAll();
+        stack.pop();
+        stack.printAll();
+        stack.pop();
+        stack.printAll();
+    }
+
     public void push(int value) {
         top = new Node(value, top);
     }
@@ -42,18 +54,6 @@ public class StackBasedOnLinkedList {
         public int getData() {
             return data;
         }
-    }
-
-    public static void main(String[] args) {
-        StackBasedOnLinkedList stack = new StackBasedOnLinkedList();
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        stack.printAll();
-        stack.pop();
-        stack.printAll();
-        stack.pop();
-        stack.printAll();
     }
 
 }

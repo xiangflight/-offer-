@@ -3,11 +3,11 @@ package ds.queue;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/19
- *
+ * <p>
  * 循环队列
  */
 
-public class CircularQueue implements IQueue{
+public class CircularQueue implements IQueue {
 
     private String[] items;
     private int n = 0;
@@ -18,6 +18,19 @@ public class CircularQueue implements IQueue{
     public CircularQueue(int capacity) {
         items = new String[capacity];
         n = capacity;
+    }
+
+    public static void main(String[] args) {
+        CircularQueue circularQueue = new CircularQueue(6);
+        circularQueue.enqueue("1");
+        circularQueue.enqueue("2");
+        circularQueue.enqueue("3");
+        circularQueue.enqueue("4");
+        circularQueue.enqueue("5");
+        circularQueue.enqueue("6");
+        circularQueue.printAll();
+        circularQueue.dequeue();
+        circularQueue.printAll();
     }
 
     @Override
@@ -49,19 +62,6 @@ public class CircularQueue implements IQueue{
             System.out.print(items[i] + " ");
         }
         System.out.println();
-    }
-
-    public static void main(String[] args) {
-        CircularQueue circularQueue = new CircularQueue(6);
-        circularQueue.enqueue("1");
-        circularQueue.enqueue("2");
-        circularQueue.enqueue("3");
-        circularQueue.enqueue("4");
-        circularQueue.enqueue("5");
-        circularQueue.enqueue("6");
-        circularQueue.printAll();
-        circularQueue.dequeue();
-        circularQueue.printAll();
     }
 
 }

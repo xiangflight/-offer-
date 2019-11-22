@@ -81,7 +81,7 @@ public class LinkedListAlgo {
      * 删除倒数第 k 个节点
      *
      * @param list 链表头节点
-     * @param k k
+     * @param k    k
      * @return 删除后的节点
      */
     public static Node deleteLastKthNode(Node list, int k) {

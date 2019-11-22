@@ -3,11 +3,11 @@ package ds.queue;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/19
- *
+ * <p>
  * 用数组实现的队列
  */
 
-public class ArrayQueue implements IQueue{
+public class ArrayQueue implements IQueue {
 
     private String[] items;
     private int n = 0;

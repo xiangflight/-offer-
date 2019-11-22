@@ -11,6 +11,8 @@ import java.util.Map;
 public class RecursiveExample {
 
 
+    static Map<Integer, Integer> map = new HashMap<>();
+
     public static int f(int n) {
         if (n == 1) {
             return 1;
@@ -35,8 +37,6 @@ public class RecursiveExample {
         }
         return onStep(n - 1) + onStep(n - 2);
     }
-
-    static Map<Integer, Integer> map = new HashMap<>();
 
     public static int onStepPer(int n) {
         if (n == 1) {
