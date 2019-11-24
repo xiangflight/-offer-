@@ -16,12 +16,10 @@
 
 ### Algorithms
 
-| # | 名称 | 示例 | 
-| :---: | :---: | :---: |
-| 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  | 
-| 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) |
-
-//todo
+| # | 名称 | 示例 | 测试 |
+| :---: | :---: | :---: | :---: |
+| 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  |   |
+| 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) [SelectionSort](src/main/java/algo/sort/SelectionSort.java) [MergeSort](src/main/java/algo/sort/MergeSort.java)|
 
 ## Practice
 
