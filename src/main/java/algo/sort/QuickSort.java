@@ -3,12 +3,12 @@ package algo.sort;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/24
- *
+ * <p>
  * 快速排序
  * 原地排序算法
  * 空间复杂度：O(1)
  * 不稳定的排序算法
- *
+ * <p>
  * 时间复杂度：
  * 最好：O(nlogn) 分区平衡
  * 最坏：O(n^2) 分区极其不平衡

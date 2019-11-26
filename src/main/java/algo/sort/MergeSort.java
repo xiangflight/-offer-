@@ -19,6 +19,12 @@ public class MergeSort implements ISort {
 
     private int[] aux;
 
+    public static void main(String[] args) {
+        int[] arr = {5, 3, 1, 23, 4, 5, 3, 21, 1};
+        new MergeSort().sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
     @Override
     public void sortAscend(int[] arr, int n) {
         aux = new int[n];
@@ -40,9 +46,9 @@ public class MergeSort implements ISort {
      * 将 arr[p...q] 和 arr[q+1...r] 合并成 arr[p...r]
      *
      * @param arr 数组
-     * @param p p
-     * @param q q
-     * @param r r
+     * @param p   p
+     * @param q   q
+     * @param r   r
      */
     private void merge(int[] arr, int p, int q, int r) {
         int i = p, j = q + 1;
@@ -60,12 +66,6 @@ public class MergeSort implements ISort {
                 arr[k] = aux[j++];
             }
         }
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {5, 3, 1, 23, 4, 5, 3, 21, 1};
-        new MergeSort().sort(arr);
-        System.out.println(Arrays.toString(arr));
     }
 
 }

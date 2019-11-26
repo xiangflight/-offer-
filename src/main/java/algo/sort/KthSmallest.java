@@ -23,7 +23,7 @@ public class KthSmallest {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 1,  2};
+        int[] arr = {1, 1, 2};
         int k = 2;
         final int ans = kthSmallest(arr, k);
         System.out.println(String.format("第 %d 小的元素是：%d", k, ans));
