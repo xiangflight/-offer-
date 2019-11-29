@@ -10,7 +10,7 @@ public class BinarySearch {
     /**
      * 无重复元素的二分查找
      *
-     * @param arr 数组
+     * @param arr    数组
      * @param target 要查找的数
      * @return 值的索引
      */
@@ -21,7 +21,7 @@ public class BinarySearch {
     /**
      * 无重复元素的二分查找
      *
-     * @param arr 数组
+     * @param arr    数组
      * @param target 要查找的数
      * @return 值的索引
      */

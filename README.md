@@ -11,7 +11,9 @@
 | 2 | 链表 | [ListNode](src/main/java/ds/linkedlist/ListNode.java) [SinglyLinkedList](src/main/java/ds/linkedlist/SinglyLinkedList.java) | [LRUBaseLinkedList](src/main/java/ds/linkedlist/LRUBaseLinkedList.java) [LRUBasedArray](src/main/java/ds/linkedlist/LRUBasedArray.java) [LinkedListAlgo](src/main/java/ds/linkedlist/LinkedListAlgo.java)|
 | 3 | 栈  | [SampleBrowser](src/main/java/ds/stack/SampleBrowser.java) [StackBasedOnLinkedList](src/main/java/ds/stack/StackBasedOnLinkedList.java) | |
 | 4 | 队列| [ArrayQueue](src/main/java/ds/queue/ArrayQueue.java) [CircularQueue](src/main/java/ds/queue/CircularQueue.java) [DynamicArrayQueue](src/main/java/ds/queue/DynamicArrayQueue.java) [QueueBasedLinkedList](src/main/java/ds/queue/QueueBasedOnLinkedList.java) |  |
-| 5 | 二叉树 | [TreeNode](src/main/java/ds/tree/TreeNode.java) |  | |
+| 5 | 跳表 | [SkipList]() ||
+| 6 | 哈希表| [Hashtable]() ||
+| 7 | 二叉树 | [TreeNode](src/main/java/ds/tree/TreeNode.java) |  | |
 
 
 ### Algorithms
@@ -21,6 +23,7 @@
 | 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  |   |
 | 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) [SelectionSort](src/main/java/algo/sort/SelectionSort.java) [MergeSort](src/main/java/algo/sort/MergeSort.java) [QuickSort](src/main/java/algo/sort/QuickSort.java)|
 | 3 | 二分查找 | [BinarySearch](src/main/java/algo/binarysearch/BinarySearch.java) | [BinarySearchTest](src/test/java/algo/binarysearch/BinarySearchTest.java) |
+| 4 | 哈希 | [Hashing] |||
 
 ## Practice
 
