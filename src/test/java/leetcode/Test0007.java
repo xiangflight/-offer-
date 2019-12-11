@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @date 2019/10/21
  */
 
-class Test7 {
+class Test0007 {
 
     private final Solution0007 solution = new Solution0007();
 

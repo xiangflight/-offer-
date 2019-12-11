@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @date 2019/10/24
  */
 
-class Test236 {
+class Test0236 {
 
     private final Solution0236 solution = new Solution0236();
 

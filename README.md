@@ -23,7 +23,7 @@
 | 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  |   |
 | 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) [SelectionSort](src/main/java/algo/sort/SelectionSort.java) [MergeSort](src/main/java/algo/sort/MergeSort.java) [QuickSort](src/main/java/algo/sort/QuickSort.java)|
 | 3 | 二分查找 | [BinarySearch](src/main/java/algo/binarysearch/BinarySearch.java) | [BinarySearchTest](src/test/java/algo/binarysearch/BinarySearchTest.java) |
-| 4 | 哈希 | [Hashing] |||
+| 4 | 哈希 | [Hashing](src/main/java/algo/) |||
 
 ## Practice
 
@@ -31,11 +31,11 @@
 
 | # | Title | Category | Difficulty | Code | Test | 
 | :---: | :---: | :---: | :-------: | :------: | :------: |
-| 1 | Two sum | Algorithm | Easy |[Java](src/main/java/leetcode/Solution0001.java) | [Test](src/test/java/leetcode/Test1.java) |
-| 2 | Add Two Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0002.java) | [Test](src/test/java/leetcode/Test2.java) |
-| 7 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test7.java) |
-| 11 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test11.java) |
-| 236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test236.java) |
+| 1 | Two sum | Algorithm | Easy |[Java](src/main/java/leetcode/Solution0001.java) | [Test](src/test/java/leetcode/Test0001.java) |
+| 2 | Add Two Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0002.java) | [Test](src/test/java/leetcode/Test0002.java) |
+| 7 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test0007.java) |
+| 11 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test0011.java) |
+| 236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
 
 #### 剑指offer

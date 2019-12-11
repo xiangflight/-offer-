@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -10,23 +9,26 @@ import java.util.Map;
 
 class Solution0001 {
 
-    /**
-     * find the two numbers, so their sum equals to target
-     *
-     * @param nums   input array
-     * @param target target value
-     * @return indexes of two numbers
-     */
-    int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> memo = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (memo.containsKey(complement)) {
-                return new int[]{memo.get(complement), i};
+    int[] twoSumPreferMemory(int[] nums, int target) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (target == nums[i] + nums[j]) {
+                    return new int[] {i, j};
+                }
             }
-            memo.put(nums[i], i);
         }
-        return new int[0];
+        return new int[2];
+    }
+
+    int[] twoSumPreferPerformance(int[] nums, int target) {
+        HashMap<Integer, Integer> store = new HashMap<>(1000);
+        for (int i = 0; i < nums.length; i++) {
+            if (store.containsKey(target - nums[i])) {
+                return new int[] {store.get(target - nums[i]), i};
+            }
+            store.put(nums[i], i);
+        }
+        return new int[2];
     }
 
 }

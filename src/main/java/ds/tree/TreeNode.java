@@ -26,7 +26,7 @@ public class TreeNode {
         if (this == o) {
             return true;
         }
-        if (o == null || getClass() != o.getClass()) {
+        if (!(o instanceof TreeNode)) {
             return false;
         }
         TreeNode treeNode = (TreeNode) o;
