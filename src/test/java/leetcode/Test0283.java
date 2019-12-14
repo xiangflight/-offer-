@@ -3,7 +3,7 @@ package leetcode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -20,6 +20,15 @@ class Test0283 {
         int[] origin = {0, 1, 0, 3, 12};
         int[] expected = {1, 3, 12, 0, 0};
         solution.moveZeroes(origin);
+        assertArrayEquals(expected, origin);
+    }
+
+    @Test
+    @DisplayName("Move Zeroes")
+    void moveZeroesSwapBased() {
+        int[] origin = {0, 1, 0, 3, 12};
+        int[] expected = {1, 3, 12, 0, 0};
+        solution.moveZeroesSwapBased(origin);
         assertArrayEquals(expected, origin);
     }
 }

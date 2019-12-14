@@ -23,7 +23,7 @@
 | 1 | 递归 | [RecursiveExample](src/main/java/algo/recursion/RecursiveExample.java)  |   |
 | 2 | 排序 | [BubbleSort](src/main/java/algo/sort/BubbleSort.java) [InsertionSort](src/main/java/algo/sort/InsertionSort.java) [SelectionSort](src/main/java/algo/sort/SelectionSort.java) [MergeSort](src/main/java/algo/sort/MergeSort.java) [QuickSort](src/main/java/algo/sort/QuickSort.java)|
 | 3 | 二分查找 | [BinarySearch](src/main/java/algo/binarysearch/BinarySearch.java) | [BinarySearchTest](src/test/java/algo/binarysearch/BinarySearchTest.java) |
-| 4 | 哈希 | [Hashing](src/main/java/algo/) |||
+| 4 | 哈希 | [Hashing](src/main/java/algo/hashing/..) |||
 
 ## Practice
 
@@ -35,6 +35,7 @@
 | 2 | Add Two Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0002.java) | [Test](src/test/java/leetcode/Test0002.java) |
 | 7 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test0007.java) |
 | 11 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test0011.java) |
+| 27 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
@@ -50,7 +51,7 @@
 | 5 | 替换空格 | 字符串 | [Java](src/main/java/swordoffer/ReplaceSpaces.java) | [Test](src/test/java/swordoffer/Test05.java) |
 | 6 | 从尾到头打印链表 | 链表 | [Java](src/main/java/swordoffer/PrintFromTailToHead.java) | [Test](src/test/java/swordoffer/Test06.java) |
 
-#### CC 150
+#### CC 189
 
 
 #### //todo
