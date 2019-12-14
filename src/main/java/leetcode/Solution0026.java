@@ -29,7 +29,8 @@ public class Solution0026 {
         int index = 1;
         int k = 1;
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] != nums[i - k]) {
+            // note the index {index - k}
+            if (nums[i] != nums[index - k]) {
                 nums[index++] = nums[i];
             }
         }
