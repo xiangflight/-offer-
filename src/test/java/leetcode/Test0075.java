@@ -31,4 +31,15 @@ class Test0075 {
         solution.sortColorsCountSort(input);
         assertArrayEquals(expected, input);
     }
+
+    @Test
+    @DisplayName("75 Sort Colors")
+    void sortColorsThreePartition() {
+        int[] expected = {0, 0, 1, 1, 2, 2};
+        int[] input = {2, 0, 2, 1, 1, 0};
+        solution.sortColorsPerf(input);
+        assertArrayEquals(expected, input);
+    }
+
+
 }

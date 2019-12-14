@@ -39,6 +39,8 @@
 | 27 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 75 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
 | 80 | Remove Duplicates from Sorted Array II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0080.java) | [Test](src/test/java/leetcode/Test0080.java) |
+| 88 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
+| 215 | Kth Largest Element in an Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0215.java) | [Test](src/test/java/leetcode/Test0215.java) |
 | 236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
