@@ -12,7 +12,7 @@ public class Permutation {
     }
 
     private void permutation(String str, String prefix) {
-        if (str.length() == 0) {
+        if (str.isEmpty()) {
             System.out.println(prefix);
         } else {
             for (int i = 0; i < str.length(); i++) {
