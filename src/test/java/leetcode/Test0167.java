@@ -22,4 +22,13 @@ class Test0167 {
         int target = 9;
         assertArrayEquals(expected, solution.twoSum(input, target));
     }
+
+    @Test
+    @DisplayName("167 Two Sum II - Input array is sorted")
+    void twoSumUsingBinarySearch() {
+        int[] expected = {1, 2};
+        int[] input = {2, 7, 11, 15};
+        int target = 9;
+        assertArrayEquals(expected, solution.twoSumUsingBinarySearch(input, target));
+    }
 }
