@@ -22,4 +22,12 @@ class Test0011 {
         assertEquals(expected, solution.maxArea(input));
     }
 
+    @Test
+    @DisplayName("11 Container with Most Water")
+    void testSolutionTwoPointer() {
+        int[] input = {1, 8, 6, 2, 5, 3, 8, 3, 7};
+        int expected = 49;
+        assertEquals(expected, solution.maxAreaTwoPointer(input));
+    }
+
 }

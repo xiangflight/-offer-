@@ -7,45 +7,29 @@ package leetcode;
 
 public class Solution0011 {
 
-    /**
-     * brute force solution
-     *
-     * @param height height array
-     * @return most water area
-     */
-    int maxAreaBf(int[] height) {
-        if (height == null || height.length == 1) {
-            return 0;
-        }
+    public int maxArea(int[] height) {
         int maxArea = 0;
-        int len = height.length;
-        for (int i = 0; i < len - 1; i++) {
-            for (int j = i + 1; j < len; j++) {
-                int curArea = (j - i) * Math.min(height[i], height[j]);
-                if (curArea > maxArea) {
-                    maxArea = curArea;
+        for (int i = 0; i < height.length - 1; i++) {
+            for (int j = i + 1; j < height.length; j++) {
+                int capacity = Math.min(height[i], height[j]) * (j - i);
+                if (capacity > maxArea) {
+                    maxArea = capacity;
                 }
             }
         }
         return maxArea;
     }
 
-    int maxArea(int[] height) {
-        if (height == null || height.length == 1) {
-            return 0;
-        }
-        int len = height.length;
-        int maxArea = -1;
-        int maxHeightIndex = 0;
-        int curMaxHeight = height[0];
-        for (int i = 1; i < len; i++) {
-            if (height[i] > curMaxHeight) {
-                maxHeightIndex = i;
-                curMaxHeight = height[i];
+    public int maxAreaTwoPointer(int[] height) {
+        int maxArea = 0;
+        int i = 0, j = height.length - 1;
+        while (i < j) {
+            maxArea = Math.max(maxArea, Math.min(height[i], height[j]) * (j - i));
+            if (height[i] < height[j]) {
+                i++;
+            } else {
+                j--;
             }
-            int maxHorizontalArea = i * Math.min(height[i], height[0]);
-            int maxVerticalArea = (i - maxHeightIndex) * Math.min(height[i], curMaxHeight);
-            maxArea = Math.max(maxArea, Math.max(maxHorizontalArea, maxVerticalArea));
         }
         return maxArea;
     }

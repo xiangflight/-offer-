@@ -33,6 +33,7 @@
 | :---: | :---: | :---: | :-------: | :------: | :------: |
 | 0001 | Two sum | Algorithm | Easy |[Java](src/main/java/leetcode/Solution0001.java) | [Test](src/test/java/leetcode/Test0001.java) |
 | 0002 | Add Two Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0002.java) | [Test](src/test/java/leetcode/Test0002.java) |
+| 0003 | Longest Substring without Repeating Characters | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0003.java) | [Test](src/test/java/leetcode/Test0003.java) |
 | 0007 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test0007.java) |
 | 0011 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test0011.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
@@ -42,10 +43,12 @@
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
 | 0167 | Two sum II - Input array is sorted | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0167.java) | [Test](src/test/java/leetcode/Test0167.java) |
+| 0209 | Minimum Size Subarray Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0209.java) | [Test](src/test/java/leetcode/Test0209.java) |
 | 0215 | Kth Largest Element in an Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0215.java) | [Test](src/test/java/leetcode/Test0215.java) |
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 0283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
 | 0344 | Reverse String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0344.java) | [Test](src/test/java/leetcode/Test0344.java) |
+| 0345 | Reverse Vowels of a String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0345.java) | [Test](src/test/java/leetcode/Test0345.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
 
 #### 剑指offer
