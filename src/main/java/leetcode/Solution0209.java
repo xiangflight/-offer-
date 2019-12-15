@@ -9,7 +9,8 @@ public class Solution0209 {
 
     /**
      * brute force
-     * @param s s
+     *
+     * @param s    s
      * @param nums 输入数组
      * @return
      */
@@ -26,7 +27,7 @@ public class Solution0209 {
                 }
             }
         }
-        return ret == nums.length + 1 ? 0: ret;
+        return ret == nums.length + 1 ? 0 : ret;
     }
 
     public int minSubArrayLenPerf(int s, int[] nums) {
@@ -44,7 +45,7 @@ public class Solution0209 {
                 ret = Math.min(ret, r - l + 1);
             }
         }
-        return nums.length + 1 == ret ? 0: ret;
+        return nums.length + 1 == ret ? 0 : ret;
     }
 
 }

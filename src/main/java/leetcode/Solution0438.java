@@ -13,7 +13,7 @@ public class Solution0438 {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> res = new ArrayList<>();
         int[] freq = new int[26];
-        for (char c: p.toCharArray()) {
+        for (char c : p.toCharArray()) {
             freq[c - 'a']++;
         }
         int[] another = new int[26];

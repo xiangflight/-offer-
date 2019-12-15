@@ -3,7 +3,7 @@ package leetcode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -18,7 +18,7 @@ class Test0205 {
     @DisplayName("205 Isomorphic Strings")
     void isIsomorphic() {
         String s = "egg";
-        String t=  "add";
+        String t = "add";
         assertTrue(solution.isIsomorphic(s, t));
     }
 }

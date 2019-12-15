@@ -12,10 +12,10 @@ public class Solution0242 {
             return false;
         }
         int[] fre = new int[26];
-        for (char c: s.toCharArray()) {
+        for (char c : s.toCharArray()) {
             fre[c - 'a']++;
         }
-        for (char c: t.toCharArray()) {
+        for (char c : t.toCharArray()) {
             if (fre[c - 'a'] == 0) {
                 return false;
             }

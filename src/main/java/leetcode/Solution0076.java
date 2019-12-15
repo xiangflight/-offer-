@@ -9,7 +9,7 @@ public class Solution0076 {
 
     public String minWindow(String s, String t) {
         int[] tFreq = new int[256];
-        for (char c: t.toCharArray()) {
+        for (char c : t.toCharArray()) {
             tFreq[c]++;
         }
         int[] sFreq = new int[256];
@@ -38,6 +38,6 @@ public class Solution0076 {
                 l++;
             }
         }
-        return -1 == start ? "": s.substring(start, start + min);
+        return -1 == start ? "" : s.substring(start, start + min);
     }
 }

@@ -18,7 +18,7 @@ public class Solution0075 {
     public void sortColorsCountSort(int[] nums) {
         int[] buckets = new int[3];
         // 存放 0,1,2 三个元素的频率
-        for (int num: nums) {
+        for (int num : nums) {
             assert num >= 0 && num <= 2;
             buckets[num]++;
         }

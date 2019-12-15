@@ -12,7 +12,7 @@ public class Solution0125 {
             return true;
         }
         char[] arr = s.toCharArray();
-        for (int i = 0, j = arr.length - 1; i < j;) {
+        for (int i = 0, j = arr.length - 1; i < j; ) {
             if (notAlphanumeric(arr[i])) {
                 i++;
             } else if (notAlphanumeric(arr[j])) {

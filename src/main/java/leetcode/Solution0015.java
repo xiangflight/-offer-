@@ -1,6 +1,8 @@
 package leetcode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -19,7 +21,7 @@ public class Solution0015 {
             }
             int low = i + 1;
             int hi = nums.length - 1;
-            int sum = - nums[i];
+            int sum = -nums[i];
             while (low < hi) {
                 if (nums[low] + nums[hi] == sum) {
                     res.add(Arrays.asList(nums[i], nums[low], nums[hi]));

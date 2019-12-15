@@ -7,6 +7,10 @@ package cc189;
 
 public class Permutation {
 
+    public static void main(String[] args) {
+        new Permutation().permutation("abc");
+    }
+
     void permutation(String str) {
         permutation(str, "");
     }
@@ -20,10 +24,6 @@ public class Permutation {
                 permutation(rem, prefix + str.charAt(i));
             }
         }
-    }
-
-    public static void main(String[] args) {
-        new Permutation().permutation("abc");
     }
 
 }

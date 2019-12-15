@@ -12,7 +12,7 @@ public class Solution0167 {
         while (p < q) {
             int sum = numbers[p] + numbers[q];
             if (sum == target) {
-                return new int[] {p + 1, q + 1};
+                return new int[]{p + 1, q + 1};
             }
             if (sum > target) {
                 q--;
@@ -27,7 +27,7 @@ public class Solution0167 {
         for (int i = 0; i < numbers.length; i++) {
             int p = binarySearch(numbers, i + 1, numbers.length - 1, target - numbers[i]);
             if (p != -1) {
-                return new int[] {i + 1, p + 1};
+                return new int[]{i + 1, p + 1};
             }
         }
         return new int[2];

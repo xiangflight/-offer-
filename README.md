@@ -41,6 +41,7 @@
 | 0018 | 4Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0018.java) | [Test](src/test/java/leetcode/Test0018.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
+| 0049 | Group Anagrams | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0049.java) | [Test](src/test/java/leetcode/Test0049.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
 | 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
 | 0080 | Remove Duplicates from Sorted Array II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0080.java) | [Test](src/test/java/leetcode/Test0080.java) |
