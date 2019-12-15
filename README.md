@@ -36,6 +36,9 @@
 | 0003 | Longest Substring without Repeating Characters | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0003.java) | [Test](src/test/java/leetcode/Test0003.java) |
 | 0007 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test0007.java) |
 | 0011 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test0011.java) |
+| 0015 | 3Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0015.java) | [Test](src/test/java/leetcode/Test0015.java) |
+| 0016 | 3Sum Closest | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0016.java) | [Test](src/test/java/leetcode/Test0016.java) |
+| 0018 | 4Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0018.java) | [Test](src/test/java/leetcode/Test0018.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
@@ -58,6 +61,7 @@
 | 0350 | Intersection of Two Arrays II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0350.java) | [Test](src/test/java/leetcode/Test0350.java) |
 | 0438 | Find All Anagrams in a String | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0438.java) | [Test](src/test/java/leetcode/Test0438.java) |
 | 0451 | Sort Characters By Frequency | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0451.java) | [Test](src/test/java/leetcode/Test0451.java) |
+| 0454 | 4Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0454.java) | [Test](src/test/java/leetcode/Test0454.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
 
 #### 剑指offer
