@@ -50,6 +50,8 @@
 | 0283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
 | 0344 | Reverse String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0344.java) | [Test](src/test/java/leetcode/Test0344.java) |
 | 0345 | Reverse Vowels of a String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0345.java) | [Test](src/test/java/leetcode/Test0345.java) |
+| 0349 | Intersection of Two Arrays | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0349.java) | [Test](src/test/java/leetcode/Test0349.java) |
+| 0438 | Find All Anagrams in a String | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0438.java) | [Test](src/test/java/leetcode/Test0438.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
 
 #### 剑指offer
