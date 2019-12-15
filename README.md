@@ -39,6 +39,7 @@
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
+| 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
 | 0080 | Remove Duplicates from Sorted Array II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0080.java) | [Test](src/test/java/leetcode/Test0080.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
