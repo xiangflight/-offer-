@@ -61,6 +61,7 @@
 | 0349 | Intersection of Two Arrays | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0349.java) | [Test](src/test/java/leetcode/Test0349.java) |
 | 0350 | Intersection of Two Arrays II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0350.java) | [Test](src/test/java/leetcode/Test0350.java) |
 | 0438 | Find All Anagrams in a String | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0438.java) | [Test](src/test/java/leetcode/Test0438.java) |
+| 0447 | Number of Boomerangs | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0447.java) | [Test](src/test/java/leetcode/Test0447.java) |
 | 0451 | Sort Characters By Frequency | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0451.java) | [Test](src/test/java/leetcode/Test0451.java) |
 | 0454 | 4Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0454.java) | [Test](src/test/java/leetcode/Test0454.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
