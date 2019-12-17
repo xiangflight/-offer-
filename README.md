@@ -14,6 +14,7 @@
 | 5 | 跳表 | [SkipList]() ||
 | 6 | 哈希表| [Hashtable]() ||
 | 7 | 二叉树 | [TreeNode](src/main/java/ds/tree/TreeNode.java) |  | |
+| 8 | 图 | [Graph](src/main/java/ds/graph/Graph.java) | | |
 
 
 ### Algorithms
@@ -46,12 +47,18 @@
 | 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
 | 0080 | Remove Duplicates from Sorted Array II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0080.java) | [Test](src/test/java/leetcode/Test0080.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
+| 0092 | Reverse Linked List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0092.java) | [Test](src/test/java/leetcode/Test0092.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
+| 0149 | Max Points on a Line | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0149.java) | [Test](src/test/java/leetcode/Test0149.java) |
 | 0167 | Two sum II - Input array is sorted | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0167.java) | [Test](src/test/java/leetcode/Test0167.java) |
 | 0202 | Happy Number | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0202.java) | [Test](src/test/java/leetcode/Test0202.java) |
 | 0205 | Isomorphic Strings | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0205.java) | [Test](src/test/java/leetcode/Test0205.java) |
+| 0206 | Reverse Linked List | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0206.java) | [Test](src/test/java/leetcode/Test0206.java) |
 | 0209 | Minimum Size Subarray Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0209.java) | [Test](src/test/java/leetcode/Test0209.java) |
 | 0215 | Kth Largest Element in an Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0215.java) | [Test](src/test/java/leetcode/Test0215.java) |
+| 0217 | Contains Duplicate | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0217.java) | [Test](src/test/java/leetcode/Test0217.java) |
+| 0219 | Contains Duplicate II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0219.java) | [Test](src/test/java/leetcode/Test0219.java) |
+| 0220 | Contains Duplicate III | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0220.java) | [Test](src/test/java/leetcode/Test0220.java) |
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 0242 | Valid Anagram | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0242.java) | [Test](src/test/java/leetcode/Test0242.java) |
 | 0283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |

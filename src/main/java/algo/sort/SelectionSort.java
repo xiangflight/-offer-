@@ -7,18 +7,6 @@ package algo.sort;
 
 public class SelectionSort implements ISort {
 
-    public static void main(String[] args) {
-        for (int x = 1; x <= 9; x++) {
-            int n = (int) Math.pow(10, x);
-            long startTime = System.nanoTime();
-            int sum = 0;
-            for (int i = 0; i < n; i++) {
-                sum += i;
-            }
-            System.out.println("10^" + x + " : " + (System.nanoTime() - startTime) + " ns");
-        }
-    }
-
     @Override
     public void sortAscend(int[] arr, int n) {
         for (int i = 0; i < n; i++) {

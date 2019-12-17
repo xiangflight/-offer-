@@ -17,13 +17,11 @@ public class Solution0447 {
             for (int j = 0; j < points.length; j++) {
                 if (j != i) {
                     int distance = distance(points[i], points[j]);
-                    if (map.containsKey(distance)) {
-                        res += map.get(distance) * 2;
-                        map.put(distance, map.get(distance) + 1);
-                    } else {
-                        map.put(distance, 1);
-                    }
+                    map.put(distance, map.getOrDefault(distance, 0) + 1);
                 }
+            }
+            for (int count: map.values()) {
+                res += count * (count - 1);
             }
         }
         return res;
