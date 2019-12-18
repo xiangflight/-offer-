@@ -40,7 +40,8 @@
 | 0015 | 3Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0015.java) | [Test](src/test/java/leetcode/Test0015.java) |
 | 0016 | 3Sum Closest | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0016.java) | [Test](src/test/java/leetcode/Test0016.java) |
 | 0018 | 4Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0018.java) | [Test](src/test/java/leetcode/Test0018.java) |
-| 0019 | Remove Nth Node From End of List | Medium | [Java](src/main/java/leetcode/Solution0019.java) | [Test](src/test/java/leetcode/Test0019.java) |
+| 0019 | Remove Nth Node From End of List| Algorithm | Medium | [Java](src/main/java/leetcode/Solution0019.java) | [Test](src/test/java/leetcode/Test0019.java) |
+| 0020 | Valid Parentheses | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0020.java) | [Test](src/test/java/leetcode/Test0020.java) |
 | 0021 | Merge Two Sorted Lists | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0021.java) | [Test](src/test/java/leetcode/Test0021.java) | 
 | 0024 | Swap Nodes in Pairs | Algorithm | | [Java](src/main/java/leetcode/Solution0024.java) | [Test](src/test/java/leetcode/Test0024.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
