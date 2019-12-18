@@ -18,7 +18,7 @@ public class Solution0083 {
         while (fast != null) {
             if (fast.val != slow.val) {
                 slow.next = fast;
-                slow = fast;
+                slow = slow.next;
             }
             fast = fast.next;
         }
