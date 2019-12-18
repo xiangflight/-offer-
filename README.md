@@ -40,12 +40,16 @@
 | 0015 | 3Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0015.java) | [Test](src/test/java/leetcode/Test0015.java) |
 | 0016 | 3Sum Closest | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0016.java) | [Test](src/test/java/leetcode/Test0016.java) |
 | 0018 | 4Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0018.java) | [Test](src/test/java/leetcode/Test0018.java) |
+| 0019 | Remove Nth Node From End of List | Medium | [Java](src/main/java/leetcode/Solution0019.java) | [Test](src/test/java/leetcode/Test0019.java) |
+| 0021 | Merge Two Sorted Lists | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0021.java) | [Test](src/test/java/leetcode/Test0021.java) | 
+| 0024 | Swap Nodes in Pairs | Algorithm | | [Java](src/main/java/leetcode/Solution0024.java) | [Test](src/test/java/leetcode/Test0024.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 0049 | Group Anagrams | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0049.java) | [Test](src/test/java/leetcode/Test0049.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
 | 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
 | 0080 | Remove Duplicates from Sorted Array II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0080.java) | [Test](src/test/java/leetcode/Test0080.java) |
+| 0082 | Remove Duplicates from Sorted List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0082.java) | [Test](src/test/java/leetcode/Test0082.java) |
 | 0083 | Remove Duplicates from Sorted List | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0083.java) | [Test](src/test/java/leetcode/Test0083.java) |
 | 0086 | Partition List | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0086.java) | [Test](src/test/java/leetcode/Test0086.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
