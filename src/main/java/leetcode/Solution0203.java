@@ -10,12 +10,16 @@ import ds.linkedlist.ListNode;
 public class Solution0203 {
 
     public ListNode removeElements(ListNode head, int val) {
+        if (head == null) {
+            return null;
+        }
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode temp = dummy;
         while (temp.next != null) {
             if (temp.next.val == val) {
-                temp.next = temp.next.next;
+                ListNode delNode = temp.next;
+                temp.next = delNode.next;
             } else {
                 temp = temp.next;
             }
