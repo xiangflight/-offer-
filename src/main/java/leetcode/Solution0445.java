@@ -39,7 +39,7 @@ public class Solution0445 {
             list = head;
             sum /= 10;
         }
-        return list.val == 0 ? list.next: list;
+        return list.val == 0 ? list.next : list;
     }
 
 }

@@ -5,9 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.ArrayUtil;
 
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -21,8 +19,8 @@ class Test0206 {
     @Test
     @DisplayName("206 Reverse Linked List")
     void reverseList() {
-        ListNode expected = ArrayUtil.toList(new int[] {5, 4, 3, 2, 1});
-        ListNode input = ArrayUtil.toList(new int[] {1, 2, 3, 4, 5});
+        ListNode expected = ArrayUtil.toList(new int[]{5, 4, 3, 2, 1});
+        ListNode input = ArrayUtil.toList(new int[]{1, 2, 3, 4, 5});
         assertEquals(expected, solution.reverseList(input));
     }
 }

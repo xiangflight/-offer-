@@ -20,7 +20,7 @@ public class Solution0447 {
                     map.put(distance, map.getOrDefault(distance, 0) + 1);
                 }
             }
-            for (int count: map.values()) {
+            for (int count : map.values()) {
                 res += count * (count - 1);
             }
         }

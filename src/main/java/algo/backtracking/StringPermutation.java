@@ -1,5 +1,8 @@
 package algo.backtracking;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/12/13
@@ -8,7 +11,8 @@ package algo.backtracking;
 public class StringPermutation {
 
     public static void main(String[] args) {
-        new StringPermutation().permutation("abc");
+        List<String> res = new StringPermutation().permutation("abc");
+        System.out.println(res);
     }
 
     /**
@@ -16,18 +20,20 @@ public class StringPermutation {
      *
      * @param str a given string
      */
-    public void permutation(String str) {
-        permutation(str, "");
+    public List<String> permutation(String str) {
+        List<String> res = new ArrayList<>();
+        findPermutation(str, "", res);
+        return res;
     }
 
-    private void permutation(String str, String prefix) {
+    private void findPermutation(String str, String pre, List<String> res) {
         if (0 == str.length()) {
-            System.out.println(prefix);
-        } else {
-            for (int i = 0; i < str.length(); i++) {
-                String rem = str.substring(0, i) + str.substring(i + 1);
-                permutation(rem, prefix + str.charAt(i));
-            }
+            res.add(pre);
+            return;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            String rem = str.substring(0, i) + str.substring(i + 1);
+            findPermutation(rem, pre + str.charAt(i), res);
         }
     }
 

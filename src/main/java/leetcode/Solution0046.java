@@ -10,30 +10,34 @@ import java.util.List;
 
 public class Solution0046 {
 
-    public static void main(String[] args) {
-        List<List<Integer>> res = new Solution0046().permute(new int[]{1, 2, 3});
-        System.out.println(res);
-    }
-
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        backtrack(res, new ArrayList<>(), nums, 0);
+        boolean[] used = new boolean[nums.length];
+        if (nums.length == 0) {
+            return res;
+        }
+        generatePermutation(nums, 0, new ArrayList<>(), res, used);
         return res;
     }
 
-    private void backtrack(List<List<Integer>> res, List<Integer> tempList, int[] nums, int pos) {
+    public void generatePermutation(int[] nums, int pos, List<Integer> tempList, List<List<Integer>> res, boolean[] used) {
+        System.out.println(tempList);
         if (pos == nums.length) {
             res.add(new ArrayList<>(tempList));
-        } else {
-            for (int num : nums) {
-                if (tempList.contains(num)) {
-                    continue;
-                }
-                tempList.add(num);
-                backtrack(res, tempList, nums, pos + 1);
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (!used[i]) {
+                tempList.add(nums[i]);
+                used[i] = true;
+                generatePermutation(nums, pos + 1, tempList, res, used);
                 tempList.remove(tempList.size() - 1);
+                used[i] = false;
             }
         }
     }
 
+    public static void main(String[] args) {
+        new Solution0046().permute(new int[] {1, 2, 3});
+    }
 }

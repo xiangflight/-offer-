@@ -19,7 +19,7 @@ public class Solution0220 {
             Long floor = set.floor(l);
             Long ceiling = set.ceiling(l);
             if ((floor != null && l - floor <= t)
-                || (ceiling != null && ceiling - l <= t)) {
+                    || (ceiling != null && ceiling - l <= t)) {
                 return true;
             }
             set.add(l);

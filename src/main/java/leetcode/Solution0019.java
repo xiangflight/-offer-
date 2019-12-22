@@ -13,7 +13,7 @@ public class Solution0019 {
      * 保持一个固定大小的窗口
      *
      * @param head 头节点
-     * @param n 倒数第 n 个
+     * @param n    倒数第 n 个
      * @return 返回删除后的链表
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/12/17
- *
+ * <p>
  * 使用分治求逆序对
  */
 
@@ -14,6 +14,12 @@ public class ReversePair {
     private int count;
 
     private int[] aux;
+
+    public static void main(String[] args) {
+        int[] nums = {1, 5, 6, 2, 3, 4};
+        final int count = new ReversePair().count(nums, nums.length);
+        System.out.println(count);
+    }
 
     public int count(int[] nums, int n) {
         count = 0;
@@ -47,12 +53,6 @@ public class ReversePair {
                 nums[k] = aux[j++];
             }
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 5, 6, 2, 3, 4};
-        final int count = new ReversePair().count(nums, nums.length);
-        System.out.println(count);
     }
 
 }

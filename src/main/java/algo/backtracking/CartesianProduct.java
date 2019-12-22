@@ -1,6 +1,7 @@
 package algo.backtracking;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -14,27 +15,35 @@ import java.util.List;
 public class CartesianProduct {
 
     public static void main(String[] args) {
-        int[][] arr = {{1, 2, 3}, {2, 3}};
-        List<List<Integer>> res = new CartesianProduct().cartesianProduct(arr);
-        System.out.println(res);
+        int[][] arr = {{1, 2, 3}, {4, 5}};
+        List<List<Integer>> lists = new CartesianProduct().cartesianProduct(arr);
+        System.out.println(lists);
     }
 
     private List<List<Integer>> cartesianProduct(int[][] arr) {
         List<List<Integer>> res = new ArrayList<>();
-        cartesianProduct(arr, res, 0, new ArrayList<>());
+        if (arr.length == 0) {
+            return res;
+        }
+        findCartesianProduct(arr, 0, new ArrayList<>(), res);
         return res;
     }
 
-    private void cartesianProduct(int[][] arr, List<List<Integer>> res, int pos, List<Integer> tempList) {
+    private void findCartesianProduct(int[][] arr, int pos, List<Integer> pre, List<List<Integer>> res) {
+        // todo has error
         if (pos == arr.length) {
-            res.add(new ArrayList<>(tempList));
-        } else {
-            for (int i = 0; i < arr[pos].length; i++) {
-                tempList.add(arr[pos][i]);
-                cartesianProduct(arr, res, pos + 1, tempList);
-                tempList.remove(tempList.size() - 1);
-            }
+            res.add(new ArrayList<>(pre));
+            return;
         }
+        int[] curr = arr[pos];
+        for (int num: curr) {
+            findCartesianProduct(arr, pos + 1, add(pre, num), res);
+        }
+    }
+
+    private List<Integer> add(List<Integer> list, int num) {
+        list.add(num);
+        return new ArrayList<>(list);
     }
 
 }

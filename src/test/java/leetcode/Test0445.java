@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.ArrayUtil;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -19,9 +19,9 @@ class Test0445 {
     @Test
     @DisplayName("445 Add Two Numbers II")
     void addTwoNumbers() {
-        ListNode expected = ArrayUtil.toList(new int[] {7, 8, 0, 7});
-        ListNode l1 = ArrayUtil.toList(new int[] {7, 2, 4, 3});
-        ListNode l2 = ArrayUtil.toList(new int[] {5, 6, 4});
+        ListNode expected = ArrayUtil.toList(new int[]{7, 8, 0, 7});
+        ListNode l1 = ArrayUtil.toList(new int[]{7, 2, 4, 3});
+        ListNode l2 = ArrayUtil.toList(new int[]{5, 6, 4});
         assertEquals(expected, solution.addTwoNumbers(l1, l2));
     }
 }

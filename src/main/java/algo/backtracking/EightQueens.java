@@ -7,16 +7,15 @@ package algo.backtracking;
 
 public class EightQueens {
 
-    public static void main(String[] args) {
-        new EightQueens().cal8Queens(0);
-    }
-
     private static final int WIDTH = 8;
-
     /**
      * 下标：行，值：列
      */
     int[] result = new int[8];
+
+    public static void main(String[] args) {
+        new EightQueens().cal8Queens(0);
+    }
 
     public void cal8Queens(int row) {
         if (row == WIDTH) {
@@ -37,7 +36,7 @@ public class EightQueens {
     /**
      * 判断 row 行 column 列是否合适？
      *
-     * @param row 行
+     * @param row    行
      * @param column 列
      * @return true if 合适
      */

@@ -11,7 +11,7 @@ public class Solution0020 {
 
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        for (char c: s.toCharArray()) {
+        for (char c : s.toCharArray()) {
             if (isLeftParenthesis(c)) {
                 stack.push(c);
             } else {

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.ArrayUtil;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
@@ -19,9 +19,9 @@ class Test0021 {
     @Test
     @DisplayName("21 Merge Two Sorted List")
     void mergeTwoLists() {
-        ListNode expected = ArrayUtil.toList(new int[] {1, 1, 2, 3, 4, 4});
-        ListNode l1 = ArrayUtil.toList(new int[] {1, 2, 4});
-        ListNode l2 = ArrayUtil.toList(new int[] {1, 3, 4});
+        ListNode expected = ArrayUtil.toList(new int[]{1, 1, 2, 3, 4, 4});
+        ListNode l1 = ArrayUtil.toList(new int[]{1, 2, 4});
+        ListNode l2 = ArrayUtil.toList(new int[]{1, 3, 4});
         assertEquals(expected, solution.mergeTwoLists(l1, l2));
     }
 }
