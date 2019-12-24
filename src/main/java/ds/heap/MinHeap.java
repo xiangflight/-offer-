@@ -5,6 +5,11 @@ import utils.ArrayUtil;
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/12/20
+ *
+ * 二叉堆的基本操作：
+ *   加入新的元素
+ *   删除元素
+ *   堆化数组
  */
 
 public class MinHeap {
@@ -20,6 +25,5 @@ public class MinHeap {
             ArrayUtil.swap(arr, i, j);
         }
     }
-
 
 }

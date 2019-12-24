@@ -44,9 +44,11 @@ public class Solution0343 {
         memo[1] = 1;
         for (int i = 2; i <= n;  i++) {
             // 求解memo[i]
+            for (int j = 1; j <= i - 1; j++) {
+                memo[i] = Math.max(memo[i], Math.max(j * (i - j), j * memo[i - j]));
+            }
         }
-        // todo
-        return 0;
+        return memo[n];
     }
 
 }

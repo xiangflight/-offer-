@@ -20,8 +20,10 @@ class Test0343 {
         int expected = 1;
         int input = 2;
         assertEquals(expected, solution.integerBreak(input));
+        assertEquals(expected, solution.integerBreakDp(input));
         expected = 36;
         input = 10;
         assertEquals(expected, solution.integerBreak(input));
+        assertEquals(expected, solution.integerBreakDp(input));
     }
 }
