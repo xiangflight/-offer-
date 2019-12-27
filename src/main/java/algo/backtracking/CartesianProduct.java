@@ -30,20 +30,14 @@ public class CartesianProduct {
     }
 
     private void findCartesianProduct(int[][] arr, int pos, List<Integer> pre, List<List<Integer>> res) {
-        // todo has error
         if (pos == arr.length) {
             res.add(new ArrayList<>(pre));
             return;
         }
-        int[] curr = arr[pos];
-        for (int num: curr) {
-            findCartesianProduct(arr, pos + 1, add(pre, num), res);
+        for (int i = 0; i < arr[pos].length; i++) {
+            pre.add(arr[pos][i]);
+            findCartesianProduct(arr, pos + 1, pre, res);
+            pre.remove(pre.size() - 1);
         }
     }
-
-    private List<Integer> add(List<Integer> list, int num) {
-        list.add(num);
-        return new ArrayList<>(list);
-    }
-
 }
