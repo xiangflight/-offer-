@@ -1,5 +1,9 @@
 package algo.sort;
 
+import utils.ArrayUtil;
+
+import java.util.Arrays;
+
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/24
@@ -17,6 +21,12 @@ package algo.sort;
 
 public class QuickSort implements ISort {
 
+    public static void main(String[] args) {
+        int[] arr = {1, 23, 2, 32, 2, 45, 3, 2, 2, 32, 3, 323, 2, 3, 2, 32};
+        new QuickSort().sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
     @Override
     public void sortAscend(int[] arr, int n) {
         quickSort(arr, 0, n - 1);
@@ -27,7 +37,7 @@ public class QuickSort implements ISort {
             return;
         }
         // 获取分区点
-        int q = partition(arr, p, r);
+        int q = partition2Ways(arr, p, r);
         quickSort(arr, p, q - 1);
         quickSort(arr, q + 1, r);
     }
@@ -43,6 +53,29 @@ public class QuickSort implements ISort {
         }
         swap(arr, i, r);
         return i;
+    }
+
+    private int partition2Ways(int[] arr, int lo, int hi) {
+        int i = lo, j = hi + 1;
+        int pivot = arr[lo];
+        while (true) {
+            while (arr[++i] < pivot) {
+                if (i == hi) {
+                    break;
+                }
+            }
+            while (pivot < arr[--j]) {
+                if (j == lo) {
+                    break;
+                }
+            }
+            if (i >= j) {
+                break;
+            }
+            ArrayUtil.swap(arr, i, j);
+        }
+        ArrayUtil.swap(arr, lo, j);
+        return j;
     }
 
 }
