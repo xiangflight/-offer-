@@ -24,4 +24,46 @@ public class Solution010 {
         return pre;
     }
 
+    public int JumpFloor(int target) {
+        if (target == 1) {
+            return 1;
+        }
+        if (target == 2) {
+            return 2;
+        }
+        int[] memo = new int[target + 1];
+        memo[1] = 1;
+        memo[2] = 2;
+        for (int i = 3; i <= target; i++) {
+            memo[i] = memo[i - 1] + memo[i - 2];
+        }
+        return memo[target];
+    }
+
+    public int JumpFloorII(int target) {
+        if (target == 1) {
+            return 1;
+        }
+        return 2 * JumpFloorII(target - 1);
+    }
+
+    public int RectCover(int target) {
+        if (target == 0) {
+            return 0;
+        }
+        if (target == 1) {
+            return 1;
+        }
+        if (target == 2) {
+            return 2;
+        }
+        int[] memo = new int[target + 1];
+        memo[1] = 1;
+        memo[2] = 2;
+        for (int i = 3; i <= target; i++) {
+            memo[i] = memo[i-1] + memo[i -2];
+        }
+        return memo[target];
+    }
+
 }
