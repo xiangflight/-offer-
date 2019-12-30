@@ -56,7 +56,6 @@ public class Solution0144 {
             if (command.op == Command.Op.PRINT) {
                 res.add(command.node.val);
             } else {
-                assert command.op == Command.Op.GO;
                 if (command.node.right != null) {
                     stack.push(new Command(Command.Op.GO, command.node.right));
                 }

@@ -5,5 +5,10 @@ package swordoffer;
  * @date 2019/12/29
  */
 
-public class FindInSortedArray {
+public class Solution014 {
+
+    public int cutRope(int target) {
+        return 0;
+    }
+
 }
