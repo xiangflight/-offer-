@@ -39,7 +39,7 @@ public class Solution012 {
         }
         visited[startX][startY] = true;
 
-        for (int[] direction: directions) {
+        for (int[] direction : directions) {
             int newX = startX + direction[0];
             int newY = startY + direction[1];
             if (inArea(newX, newY) && !visited[newX][newY] && findPath(matrix, rows, cols, newX, newY, index + 1, str)) {

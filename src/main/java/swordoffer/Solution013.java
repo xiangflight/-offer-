@@ -26,7 +26,7 @@ public class Solution013 {
         }
         int count = 1;
         visited[startX][startY] = true;
-        for (int[] direction: directions) {
+        for (int[] direction : directions) {
             int newX = startX + direction[0];
             int newY = startY + direction[1];
             count += movingCount(threshold, rows, cols, newX, newY);
