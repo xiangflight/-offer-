@@ -35,6 +35,12 @@ public class Solution024 {
         return reverseHead;
     }
 
+    /**
+     * 头插法
+     *
+     * @param head 链表头节点
+     * @return 反转后的头节点
+     */
     public ListNode ReverseList3(ListNode head) {
         ListNode dummy = new ListNode(-1);
 
