@@ -17,7 +17,7 @@ public class Solution038 {
 
 
     public static void main(String[] args) {
-        ArrayList<String> res = new Solution038().Permutation("abc");
+        ArrayList<String> res = new Solution038().Permutation("aa");
         System.out.println(res);
     }
 
@@ -29,11 +29,11 @@ public class Solution038 {
         char[] arr = str.toCharArray();
         Arrays.sort(arr);
         boolean[] used = new boolean[arr.length];
-        backtracking(arr, 0, new StringBuilder(), res, used);
+        findPermutation(arr, 0, new StringBuilder(), res, used);
         return res;
     }
 
-    private void backtracking(char[] arr, int pos, StringBuilder stringBuilder, ArrayList<String> res, boolean[] used) {
+    private void findPermutation(char[] arr, int pos, StringBuilder stringBuilder, ArrayList<String> res, boolean[] used) {
         if (pos == arr.length) {
             res.add(stringBuilder.toString());
             return;
@@ -47,7 +47,7 @@ public class Solution038 {
             }
             stringBuilder.append(arr[i]);
             used[i] = true;
-            backtracking(arr, pos + 1, stringBuilder, res, used);
+            findPermutation(arr, pos + 1, stringBuilder, res, used);
             used[i] = false;
             stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         }
