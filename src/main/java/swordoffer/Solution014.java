@@ -5,6 +5,8 @@ package swordoffer;
  * @date 2019/12/29
  * <p>
  * 递归 -> 记忆化搜索 -> 动态规划
+ * <p>
+ * see also {@link leetcode.Solution0343#integerBreak(int)}
  */
 
 public class Solution014 {

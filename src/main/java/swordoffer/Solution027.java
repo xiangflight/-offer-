@@ -15,6 +15,7 @@ public class Solution027 {
         if (root == null) {
             return;
         }
+        // 到叶子节点即可结束
         if (root.left == null && root.right == null) {
             return;
         }

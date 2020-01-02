@@ -17,7 +17,7 @@ package swordoffer;
 public class Solution011 {
 
     public static void main(String[] args) {
-        int[] arr = {0, 1, 1, 1, 1};
+        int[] arr = {3,4,5,1,2};
         int i = new Solution011().minNumberInRotateArray(arr);
         System.out.println(i);
     }

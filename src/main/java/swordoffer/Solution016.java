@@ -59,7 +59,7 @@ public class Solution016 {
     }
 
     private boolean equals(double a, double b) {
-        return Math.abs(a - b) < 0.000001;
+        return Math.abs(a - b) < 0.0000001;
     }
 
 }
