@@ -40,6 +40,7 @@ public class Solution047 {
         for (int[] value : values) {
             dp[0] += value[0];
             for (int i = 1; i < n; i++) {
+                // 相当于缓存了上一行到此列的和
                 dp[i] = Math.max(dp[i], dp[i - 1]) + value[i];
             }
             System.out.println(Arrays.toString(dp));
