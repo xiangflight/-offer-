@@ -21,6 +21,9 @@ public class Solution053 {
         int k = 3;
         int res = new Solution053().GetNumberOfK(arr, k);
         System.out.println(res);
+
+        int[] nums = {-3, -1, 1, 3, 5};
+        System.out.println(new Solution053().findNumberSameIndex(nums, nums.length));
     }
 
     public int GetNumberOfK(int [] array , int k) {
@@ -68,6 +71,55 @@ public class Solution053 {
                 } else {
                     hi = mid - 1;
                 }
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 0 ～ n-1 中缺失的数字
+     *
+     * @param arr 输入数组
+     * @param len 数组长度
+     * @return 缺失的数字
+     */
+    private int findMissingNumber(int[] arr, int len) {
+        if (arr == null || len <= 0) {
+            return -1;
+        }
+        int lo = 0, hi = len - 1;
+        while (lo <= hi) {
+            int mid = lo + ((hi - lo) >>> 1);
+            if (arr[mid] != mid) {
+                if ((mid == 0) || arr[mid - 1] == mid - 1) {
+                    return mid;
+                } else {
+                    hi = mid - 1;
+                }
+            } else {
+                lo = mid + 1;
+            }
+        }
+        if (lo == len) {
+            return len;
+        }
+        return -1;
+    }
+
+    private int findNumberSameIndex(int[] arr, int len) {
+        if (arr == null || len <= 0) {
+            return -1;
+        }
+        int lo = 0, hi = len - 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] == mid) {
+                return mid;
+            }
+            if (arr[mid] > mid) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
             }
         }
         return -1;
