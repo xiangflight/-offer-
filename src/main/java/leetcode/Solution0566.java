@@ -60,9 +60,9 @@ public class Solution0566 {
         int row, column;
         row = column = 0;
         int[][] res = new int[r][c];
-        for (int i = 0; i < m; i++) {
+        for (int[] num : nums) {
             for (int j = 0; j < n; j++) {
-                res[row][column] = nums[i][j];
+                res[row][column] = num[j];
                 column = (column + 1) % c;
                 if (column == 0) {
                     row++;

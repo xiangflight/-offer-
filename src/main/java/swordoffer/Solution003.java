@@ -6,4 +6,6 @@ package swordoffer;
  */
 
 public class Solution003 {
+
+
 }
