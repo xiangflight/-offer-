@@ -21,7 +21,6 @@ public class Solution0046 {
     }
 
     public void generatePermutation(int[] nums, int pos, List<Integer> tempList, List<List<Integer>> res, boolean[] used) {
-        System.out.println(tempList);
         if (pos == nums.length) {
             res.add(new ArrayList<>(tempList));
             return;
@@ -38,6 +37,7 @@ public class Solution0046 {
     }
 
     public static void main(String[] args) {
-        new Solution0046().permute(new int[] {1, 2, 3});
+        List<List<Integer>> permute = new Solution0046().permute(new int[]{1, 2, 3});
+        System.out.println(permute);
     }
 }
