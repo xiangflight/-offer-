@@ -33,7 +33,7 @@ public class Knapsack {
     /**
      * 用[0..index]中的物品，填充容积为 c 的背包的最大价值
      * <p>
-     * 记忆话搜索
+     * 记忆化搜索
      *
      * @param w     w
      * @param v     v

@@ -55,6 +55,7 @@
 | 0086 | Partition List | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0086.java) | [Test](src/test/java/leetcode/Test0086.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
 | 0092 | Reverse Linked List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0092.java) | [Test](src/test/java/leetcode/Test0092.java) |
+| 0120 | Triangle | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0120.java) | [Test](src/test/java/leetcode/Test0120.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
 | 0149 | Max Points on a Line | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0149.java) | [Test](src/test/java/leetcode/Test0149.java) |
 | 0167 | Two sum II - Input array is sorted | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0167.java) | [Test](src/test/java/leetcode/Test0167.java) |
@@ -82,6 +83,7 @@
 | 0451 | Sort Characters By Frequency | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0451.java) | [Test](src/test/java/leetcode/Test0451.java) |
 | 0454 | 4Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0454.java) | [Test](src/test/java/leetcode/Test0454.java) |
 | 0566 | Reshape the Matrix | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0566.java) | [Test](src/test/java/leetcode/Test0566.java) |
+| 0978 | Longest Turbulent Subarray | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0978.java) | [Test](src/test/java/leetcode/Test0978.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
 
 #### 剑指offer

@@ -1,7 +1,5 @@
 package algo.sort;
 
-import java.util.Arrays;
-
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/11/22
@@ -26,10 +24,10 @@ public class InsertionSort implements ISort {
             int key = arr[j];
             int i = j - 1;
             while (i >= 0 && arr[i] > key) {
-                arr[i+1] = arr[i];
+                arr[i + 1] = arr[i];
                 i--;
             }
-            arr[i+1] = key;
+            arr[i + 1] = key;
         }
     }
 }

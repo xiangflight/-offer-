@@ -5,7 +5,7 @@ package leetcode;
  * @date 2019/12/31
  */
 
-public class Solution050 {
+public class Solution0050 {
 
     public double myPow(double x, int n) {
         if (equals(x, 0.0) && n <= 0) {
