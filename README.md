@@ -83,6 +83,7 @@
 | 0451 | Sort Characters By Frequency | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0451.java) | [Test](src/test/java/leetcode/Test0451.java) |
 | 0454 | 4Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0454.java) | [Test](src/test/java/leetcode/Test0454.java) |
 | 0566 | Reshape the Matrix | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0566.java) | [Test](src/test/java/leetcode/Test0566.java) |
+| 0717 | 1-bit and 2-bit Characters | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0717.java) | [Test](src/test/java/leetcode/Test0717.java) | 
 | 0962 | Maximum Width Ramp | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0962.java) | [Test](src/test/java/leetcode/Test0962.java) |
 | 0978 | Longest Turbulent Subarray | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0978.java) | [Test](src/test/java/leetcode/Test0978.java) |
 | 1053 | Previous permutation With One Swap | Algorithm | Medium | [java](src/main/java/leetcode/Solution1053.java) | [Test](src/test/java/leetcode/Test1053.java) |
