@@ -7,7 +7,7 @@ package cc189;
  * 存在溢出的风险
  */
 
-public class Solution081 {
+public class Solution0801 {
 
     /**
      * f(n) 代表登上 n 级台阶有多少种走法
@@ -92,7 +92,7 @@ public class Solution081 {
     }
 
     public static void main(String[] args) {
-        int ans = new Solution081().f3(4);
+        int ans = new Solution0801().f3(4);
         System.out.println(ans);
     }
 
