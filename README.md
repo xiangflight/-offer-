@@ -46,6 +46,7 @@
 | 0024 | Swap Nodes in Pairs | Algorithm | | [Java](src/main/java/leetcode/Solution0024.java) | [Test](src/test/java/leetcode/Test0024.java) |
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
+| 0031 | Next Permutation | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0031.java) | [Test](src/test/java/leetcode/Test0031.java) |
 | 0049 | Group Anagrams | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0049.java) | [Test](src/test/java/leetcode/Test0049.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
 | 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
@@ -105,5 +106,8 @@
 | 8.3 | Magic Index | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0803.java) |
 | 8.4 | Power Set | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0804.java) |
 | 8.5 | Recursive Multiply | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0805.java) |
+| 8.6 | Towers of Hanoi | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0806.java) |
+| 8.7 | Permutations without Dups | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0807.java) |
+| 8.8 | Permutations with Dups | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0808.java) |
 
 #### //todo

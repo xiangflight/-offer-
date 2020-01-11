@@ -52,9 +52,7 @@ public class MergeSort implements ISort {
      */
     private void merge(int[] arr, int p, int q, int r) {
         int i = p, j = q + 1;
-        for (int k = p; k <= r; k++) {
-            aux[k] = arr[k];
-        }
+        Arrays.setAll(aux, index -> arr[index]);
         for (int k = p; k <= r; k++) {
             if (i > q) {
                 arr[k] = aux[j++];
