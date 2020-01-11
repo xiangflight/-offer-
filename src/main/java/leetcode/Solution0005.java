@@ -25,7 +25,7 @@ public class Solution0005 {
         if (s == null || left > right) {
             return;
         }
-        while (left >= 0 && right < s.length(  ) && s.charAt(left) == s.charAt(right)) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
         }
@@ -33,6 +33,39 @@ public class Solution0005 {
             start = left + 1;
             maxLen = right - left - 1;
         }
+    }
+
+    public String longestPalindrome1(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        int n = s.length();
+        if (n == 1) {
+            return s;
+        }
+        int start = 0;
+        int maxLen = 1;
+        boolean[][] memo = new boolean[n][n];
+        for (int i = 0; i < n; i++) {
+            memo[i][i] = true;
+            if (i < n - 1 && s.charAt(i) == s.charAt(i + 1)) {
+                memo[i][i + 1] = true;
+                maxLen = 2;
+                start = i;
+            }
+        }
+        // l 为检索的字段长度
+        for (int l = 3; l <= n; l++) {
+            for (int i = 0; i + l - 1 < n; i++) {
+                int j = i + l - 1;
+                if (s.charAt(i) == s.charAt(j) && memo[i+1][j-1]) {
+                    memo[i][j] = true;
+                    start = i;
+                    maxLen = l;
+                }
+            }
+        }
+        return s.substring(start, start + maxLen);
     }
 
 }

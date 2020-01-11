@@ -35,6 +35,7 @@
 | 0001 | Two sum | Algorithm | Easy |[Java](src/main/java/leetcode/Solution0001.java) | [Test](src/test/java/leetcode/Test0001.java) |
 | 0002 | Add Two Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0002.java) | [Test](src/test/java/leetcode/Test0002.java) |
 | 0003 | Longest Substring without Repeating Characters | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0003.java) | [Test](src/test/java/leetcode/Test0003.java) |
+| 0006 | ZigZag Conversion | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0006.java) | [Test](src/test/java/leetcode/Test0006.java) |
 | 0007 | Reverse Integer | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0007.java) | [Test](src/test/java/leetcode/Test0007.java) |
 | 0011 | Container With Most Water | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0011.java) | [Test](src/test/java/leetcode/Test0011.java) |
 | 0015 | 3Sum | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0015.java) | [Test](src/test/java/leetcode/Test0015.java) |
@@ -47,6 +48,8 @@
 | 0026 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0026.java) | [Test](src/test/java/leetcode/Test0026.java) |
 | 0027 | Remove Element | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0027.java) | [Test](src/test/java/leetcode/Test0027.java) |
 | 0031 | Next Permutation | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0031.java) | [Test](src/test/java/leetcode/Test0031.java) |
+| 0046 | Permutations | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0046.java) | [Test](src/test/java/leetcode/Test0046.java) |
+| 0047 | Permutations II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0047.java) | [Test](src/test/java/leetcode/Test0047.java) |
 | 0049 | Group Anagrams | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0049.java) | [Test](src/test/java/leetcode/Test0049.java) |
 | 0075 | Sort Colors | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0075.java) | [Test](src/test/java/leetcode/Test0075.java) |
 | 0076 | Minimum Window Substring | Algorithm | Hard | [Java](src/main/java/leetcode/Solution0076.java) | [Test](src/test/java/leetcode/Test0076.java) |
