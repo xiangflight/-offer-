@@ -61,9 +61,12 @@
 | 0092 | Reverse Linked List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0092.java) | [Test](src/test/java/leetcode/Test0092.java) |
 | 0101 | Symmetric Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0101.java) | [Test](src/test/java/leetcode/Test0101.java) |
 | 0110 | Balanced Binary tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0110.java) | [Test](src/test/java/leetcode/Test0110.java) |
+| 0112 | Path Sum | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0112.java) | [Test](src/test/java/leetcode/Test0112.java) |
 | 0120 | Triangle | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0120.java) | [Test](src/test/java/leetcode/Test0120.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
 | 0149 | Max Points on a Line | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0149.java) | [Test](src/test/java/leetcode/Test0149.java) |
+| 0153 | Find Minimum in Rotated Sorted Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0153.java) | [Test](src/test/java/leetcode/Test0153.java) |
+| 0154 | Find Minimum in Rotated Sorted Array | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0154.java) | [Test](src/test/java/leetcode/Test0154.java) |
 | 0167 | Two sum II - Input array is sorted | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0167.java) | [Test](src/test/java/leetcode/Test0167.java) |
 | 0202 | Happy Number | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0202.java) | [Test](src/test/java/leetcode/Test0202.java) |
 | 0203 | Remove Linked List Elements | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0203.java) | [Test](src/test/java/leetcode/Test0203.java) |
@@ -84,7 +87,8 @@
 | 0344 | Reverse String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0344.java) | [Test](src/test/java/leetcode/Test0344.java) |
 | 0345 | Reverse Vowels of a String | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0345.java) | [Test](src/test/java/leetcode/Test0345.java) |
 | 0349 | Intersection of Two Arrays | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0349.java) | [Test](src/test/java/leetcode/Test0349.java) |
-| 0350 | Intersection of Two Arrays II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0350.java) | [Test](src/test/java/leetcode/Test0350.java) |
+| 0350 | Intersection of Two Arrays II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0350.java) | [Test](src/test/java/leetcode/Test0350.java) ||
+| 0404 | Sum of Left Leaves | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0404.java) | [Test](src/test/java/leetcode/Test0404.java) |
 | 0438 | Find All Anagrams in a String | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0438.java) | [Test](src/test/java/leetcode/Test0438.java) |
 | 0442 | Find All Duplicates in an Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0442.java) | [Test](src/test/java/leetcode/Test0442.java) |
 | 0445 | Add Two Numbers II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0445.java) | [Test](src/test/java/leetcode/Test0445.java) |
