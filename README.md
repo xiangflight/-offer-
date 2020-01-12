@@ -62,8 +62,10 @@
 | 0101 | Symmetric Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0101.java) | [Test](src/test/java/leetcode/Test0101.java) |
 | 0110 | Balanced Binary tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0110.java) | [Test](src/test/java/leetcode/Test0110.java) |
 | 0112 | Path Sum | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0112.java) | [Test](src/test/java/leetcode/Test0112.java) |
+| 0113 | Path Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0113.java) | [Test](src/test/java/leetcode/Test0113.java) |
 | 0120 | Triangle | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0120.java) | [Test](src/test/java/leetcode/Test0120.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
+| 0129 | Sum Root to Leaf Numbers | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0129.java) | [Test](src/test/java/leetcode/Test0129.java) |
 | 0149 | Max Points on a Line | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0149.java) | [Test](src/test/java/leetcode/Test0149.java) |
 | 0153 | Find Minimum in Rotated Sorted Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0153.java) | [Test](src/test/java/leetcode/Test0153.java) |
 | 0154 | Find Minimum in Rotated Sorted Array | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0154.java) | [Test](src/test/java/leetcode/Test0154.java) |
@@ -81,6 +83,7 @@
 | 0226 | Invert Binary Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0226.java) | [Test](src/test/java/leetcode/Test0226.java) |
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 0242 | Valid Anagram | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0242.java) | [Test](src/test/java/leetcode/Test0242.java) |
+| 0257 | Binary Tree Paths | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0257.java) | [Test](src/test/java/leetcode/Test0257.java) |
 | 0283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
 | 0290 | Word Pattern | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0290.java) | [Test](src/test/java/leetcode/Test0290.java) |
 | 0328 | Odd Even Linked List | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0328.java) | [Test](src/test/java/leetcode/Test0328.java) |
