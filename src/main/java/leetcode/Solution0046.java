@@ -37,7 +37,7 @@ public class Solution0046 {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> permute = new Solution0046().permute(new int[]{1, 2, 3});
+        List<List<Integer>> permute = new Solution0046().permute(new int[]{1, 1, 2});
         System.out.println(permute);
     }
 }

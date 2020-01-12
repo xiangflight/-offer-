@@ -42,5 +42,11 @@ public class Solution0047 {
         }
     }
 
+    public static void main(String[] args) {
+        int[] nums = {1, 1, 2};
+        List<List<Integer>> ans = new Solution0047().permuteUnique(nums);
+        System.out.println(ans);
+    }
+
 
 }

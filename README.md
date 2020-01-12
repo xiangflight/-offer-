@@ -59,6 +59,8 @@
 | 0086 | Partition List | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0086.java) | [Test](src/test/java/leetcode/Test0086.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
 | 0092 | Reverse Linked List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0092.java) | [Test](src/test/java/leetcode/Test0092.java) |
+| 0101 | Symmetric Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0101.java) | [Test](src/test/java/leetcode/Test0101.java) |
+| 0110 | Balanced Binary tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0110.java) | [Test](src/test/java/leetcode/Test0110.java) |
 | 0120 | Triangle | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0120.java) | [Test](src/test/java/leetcode/Test0120.java) |
 | 0125 | Valid Palindrome | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0125.java) | [Test](src/test/java/leetcode/Test0125.java) |
 | 0149 | Max Points on a Line | Algorithm | Difficult | [Java](src/main/java/leetcode/Solution0149.java) | [Test](src/test/java/leetcode/Test0149.java) |
@@ -72,6 +74,8 @@
 | 0217 | Contains Duplicate | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0217.java) | [Test](src/test/java/leetcode/Test0217.java) |
 | 0219 | Contains Duplicate II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0219.java) | [Test](src/test/java/leetcode/Test0219.java) |
 | 0220 | Contains Duplicate III | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0220.java) | [Test](src/test/java/leetcode/Test0220.java) |
+| 0222 | Count Complete Tree Nodes | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0222.java) | [Test](src/test/java/leetcode/Test0222.java) |
+| 0226 | Invert Binary Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0226.java) | [Test](src/test/java/leetcode/Test0226.java) |
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 0242 | Valid Anagram | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0242.java) | [Test](src/test/java/leetcode/Test0242.java) |
 | 0283 | Move Zeroes | Algorithm | Easy | [java](src/main/java/leetcode/Solution0283.java) | [Test](src/test/java/leetcode/Test0283.java) |
