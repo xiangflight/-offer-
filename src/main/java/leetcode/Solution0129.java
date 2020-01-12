@@ -8,19 +8,17 @@ import ds.tree.TreeNode;
  */
 
 public class Solution0129 {
-
     private int res = 0;
-    private int temp = 0;
 
     public int sumNumbers(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        sumRoot(root);
+        sumRoot(root, 0);
         return res;
     }
 
-    private void sumRoot(TreeNode root) {
+    private void sumRoot(TreeNode root, int temp) {
         if (root == null) {
             return;
         }
@@ -28,14 +26,13 @@ public class Solution0129 {
 
         if (root.left == null && root.right == null) {
             res += temp;
+            return;
         }
         if (root.left != null) {
-            sumRoot(root.left);
+            sumRoot(root.left, temp);
         }
         if (root.right != null) {
-            sumRoot(root.right);
+            sumRoot(root.right, temp);
         }
-
-        temp /= 10;
     }
 }
