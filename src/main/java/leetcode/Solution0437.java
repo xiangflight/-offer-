@@ -13,22 +13,29 @@ public class Solution0437 {
         if (root == null) {
             return 0;
         }
-        int res = findPath(root, sum);
-        res += pathSum(root.left, sum);
-        res += pathSum(root.right, sum);
-        return res;
+        return findPath(root, sum) + pathSum(root.left, sum) + pathSum(root.right, sum);
     }
 
-    private int findPath(TreeNode node, int sum) {
-        if (node == null) {
+    /**
+     * 以 root 为根节点的树中找一个 path sums up to sum
+     *
+     * @param root root
+     * @param sum  sum
+     * @return amount
+     */
+    private int findPath(TreeNode root, int sum) {
+        if (root == null) {
             return 0;
         }
+
         int res = 0;
-        if (node.val == sum) {
+        if (root.val == sum) {
             res += 1;
+            // cannot return directly
         }
-        res += findPath(node.left, sum - node.val);
-        res += findPath(node.right, sum - node.val);
+        res += findPath(root.left, sum - root.val);
+        res += findPath(root.right, sum - root.val);
+
         return res;
     }
 

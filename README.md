@@ -59,7 +59,9 @@
 | 0086 | Partition List | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0086.java) | [Test](src/test/java/leetcode/Test0086.java) |
 | 0088 | Merge Sorted Array | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0088.java) | [Test](src/test/java/leetcode/Test0088.java) |
 | 0092 | Reverse Linked List II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0092.java) | [Test](src/test/java/leetcode/Test0092.java) |
+| 0098 | Validate Binary Search Tree | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0098.java) | [Test](src/test/java/leetcode/Test0098.java) |
 | 0101 | Symmetric Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0101.java) | [Test](src/test/java/leetcode/Test0101.java) |
+| 0108 | Convert Sorted Array to Binary Search Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0108.java) | [Test](src/test/java/leetcode/Test0108.java) |
 | 0110 | Balanced Binary tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0110.java) | [Test](src/test/java/leetcode/Test0110.java) |
 | 0112 | Path Sum | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0112.java) | [Test](src/test/java/leetcode/Test0112.java) |
 | 0113 | Path Sum II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0113.java) | [Test](src/test/java/leetcode/Test0113.java) |
@@ -81,6 +83,7 @@
 | 0220 | Contains Duplicate III | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0220.java) | [Test](src/test/java/leetcode/Test0220.java) |
 | 0222 | Count Complete Tree Nodes | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0222.java) | [Test](src/test/java/leetcode/Test0222.java) |
 | 0226 | Invert Binary Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0226.java) | [Test](src/test/java/leetcode/Test0226.java) |
+| 0235 | Lowest Common Ancestor of a Binary Search Tree | [Java](src/main/java/leetcode/Solution0235.java) | [Test](src/test/java/leetcode/Test0235.java) | 
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |
 | 0242 | Valid Anagram | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0242.java) | [Test](src/test/java/leetcode/Test0242.java) |
 | 0257 | Binary Tree Paths | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0257.java) | [Test](src/test/java/leetcode/Test0257.java) |
@@ -92,6 +95,7 @@
 | 0349 | Intersection of Two Arrays | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0349.java) | [Test](src/test/java/leetcode/Test0349.java) |
 | 0350 | Intersection of Two Arrays II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0350.java) | [Test](src/test/java/leetcode/Test0350.java) ||
 | 0404 | Sum of Left Leaves | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0404.java) | [Test](src/test/java/leetcode/Test0404.java) |
+| 0437 | Path sum III | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0437.java) | [Test](src/test/java/leetcode/Test0437.java) |
 | 0438 | Find All Anagrams in a String | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0438.java) | [Test](src/test/java/leetcode/Test0438.java) |
 | 0442 | Find All Duplicates in an Array | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0442.java) | [Test](src/test/java/leetcode/Test0442.java) |
 | 0445 | Add Two Numbers II | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0445.java) | [Test](src/test/java/leetcode/Test0445.java) |
