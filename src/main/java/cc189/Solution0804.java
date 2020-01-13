@@ -56,17 +56,17 @@ public class Solution0804 {
         if (set.size() == index) {
             allSubsets = new ArrayList<>();
             allSubsets.add(new ArrayList<>());
-        } else {
-            allSubsets = getSubsets(set, index + 1);
-            int item = set.get(index);
-            List<List<Integer>> moreSubsets = new ArrayList<>();
-            for (List<Integer> subset: allSubsets) {
-                ArrayList<Integer> newSubset = new ArrayList<>(subset);
-                newSubset.add(item);
-                moreSubsets.add(newSubset);
-            }
-            allSubsets.addAll(moreSubsets);
+            return allSubsets;
         }
+        allSubsets = getSubsets(set, index + 1);
+        int item = set.get(index);
+        List<List<Integer>> moreSubsets = new ArrayList<>();
+        for (List<Integer> subset: allSubsets) {
+            ArrayList<Integer> newSubset = new ArrayList<>(subset);
+            newSubset.add(item);
+            moreSubsets.add(newSubset);
+        }
+        allSubsets.addAll(moreSubsets);
         return allSubsets;
     }
 

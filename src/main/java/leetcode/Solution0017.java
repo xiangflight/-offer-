@@ -11,7 +11,7 @@ import java.util.List;
 public class Solution0017 {
 
     final String[] letterMap = {
-            "",
+            " ",
             "",
             "abc",
             "def",
@@ -22,13 +22,6 @@ public class Solution0017 {
             "tuv",
             "wxyz"
     };
-
-    public static void main(String[] args) {
-        List<String> res = new Solution0017().letterCombinations("234");
-        for (String val : res) {
-            System.out.println(val);
-        }
-    }
 
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();

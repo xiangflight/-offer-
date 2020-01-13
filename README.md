@@ -128,5 +128,8 @@
 | 8.6 | Towers of Hanoi | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0806.java) |
 | 8.7 | Permutations without Dups | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0807.java) |
 | 8.8 | Permutations with Dups | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0808.java) |
+| 8.9 | Parens | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0809.java) |
+| 8.11 | Coins | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0811.java) |
+| 8.12 | Eight Queens | Recursion and Dynamic Programming | [Java](src/main/java/cc189/Solution0812.java) |
 
 #### //todo
