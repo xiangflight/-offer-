@@ -82,6 +82,7 @@
 | 0219 | Contains Duplicate II | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0219.java) | [Test](src/test/java/leetcode/Test0219.java) |
 | 0220 | Contains Duplicate III | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0220.java) | [Test](src/test/java/leetcode/Test0220.java) |
 | 0222 | Count Complete Tree Nodes | Algorithm | Medium | [Java](src/main/java/leetcode/Solution0222.java) | [Test](src/test/java/leetcode/Test0222.java) |
+| 0225 | Implement Stack Using Queues | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0225.java) | [Test](src/test/java/leetcode/Test0225.java) |
 | 0226 | Invert Binary Tree | Algorithm | Easy | [Java](src/main/java/leetcode/Solution0226.java) | [Test](src/test/java/leetcode/Test0226.java) |
 | 0235 | Lowest Common Ancestor of a Binary Search Tree | [Java](src/main/java/leetcode/Solution0235.java) | [Test](src/test/java/leetcode/Test0235.java) | 
 | 0236 | Lowest Common Ancestor of a Binary Tree | Algorithm | Medium | [java](src/main/java/leetcode/Solution0236.java) | [Test](src/test/java/leetcode/Test0236.java) |

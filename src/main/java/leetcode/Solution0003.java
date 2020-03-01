@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/12/15
@@ -23,5 +26,22 @@ public class Solution0003 {
             res = Math.max(res, r - l + 1);
         }
         return res;
+    }
+
+    public int lengthOfLongestSubstring1(String s) {
+        int n = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0, i = 0, j = 0;
+        while (i < n && j < n) {
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j));
+                j++;
+                ans = Math.max(ans, j - i);
+            } else {
+                set.remove(s.charAt(i));
+                i++;
+            }
+        }
+        return ans;
     }
 }
