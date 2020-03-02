@@ -13,8 +13,8 @@ public class Solution0206 {
         if (head == null) {
             return null;
         }
-        ListNode pre = null;
         ListNode cur = head;
+        ListNode pre = null;
         while (cur != null) {
             ListNode next = cur.next;
             cur.next = pre;
@@ -24,15 +24,14 @@ public class Solution0206 {
         return pre;
     }
 
-    public ListNode reverseListRecursive(ListNode head) {
+    public ListNode reverseListRecursively(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode reverseHead = reverseList(head.next);
+        ListNode reverseHead = reverseListRecursively(head.next);
         head.next.next = head;
         head.next = null;
         return reverseHead;
-
     }
 
 }
