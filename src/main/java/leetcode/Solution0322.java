@@ -1,38 +1,29 @@
 package leetcode;
 
+import java.util.Arrays;
+
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/12/25
+ * <p>
+ * dp[i] = x 表示，当目标金额为 i 时，至少需要 x 枚硬币
  */
 
 public class Solution0322 {
 
     public int coinChange(int[] coins, int amount) {
-        if (amount < 1) {
-            return 0;
-        }
-        return coinChange(coins, amount, new int[amount]);
-    }
-
-    private int coinChange(int[] coins, int amount, int[] count) {
-        if (amount < 0) {
-            return -1;
-        }
-        if (amount == 0) {
-            return 0;
-        }
-        if (count[amount - 1] != 0) {
-            return count[amount - 1];
-        }
-        int min = Integer.MAX_VALUE;
-        for (int coin: coins) {
-            int ret = coinChange(coins, amount - coin, count);
-            if (ret >= 0 && ret < min) {
-                min = 1 + ret;
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1);
+        dp[0] = 0;
+        for (int i = 0; i < dp.length; i++) {
+            for (int coin: coins) {
+                if (i - coin < 0) {
+                    continue;
+                }
+                dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
             }
         }
-        count[amount - 1] = (min == Integer.MAX_VALUE) ? -1: min;
-        return count[amount - 1];
+        return (dp[amount] == amount + 1) ? -1: dp[amount];
     }
 
 }
