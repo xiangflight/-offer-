@@ -41,4 +41,11 @@ public class Solution0812 {
         return true;
     }
 
+    public static void main(String[] args) {
+        List<List<Integer>> lists = new Solution0812().nQueens(4);
+        for (List<Integer> list : lists) {
+            System.out.println(list);
+        }
+    }
+
 }
