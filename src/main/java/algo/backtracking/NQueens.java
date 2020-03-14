@@ -8,18 +8,25 @@ import java.util.List;
  * @date 2020/3/13
  * <p>
  * N皇后问题
- *
+ * <p>
  * 路径
  * 选择列表
  * 结束条件
- *
+ * <p>
+ * 决策树的遍历
  */
 
 public class NQueens {
 
+    public static void main(String[] args) {
+        List<List<Integer>> answer = new NQueens().solveNQueens(8);
+        answer.forEach(System.out::println);
+    }
+
     List<List<Integer>> res = new LinkedList<>();
 
     List<List<Integer>> solveNQueens(int n) {
+        // 路径
         LinkedList<Integer> track = new LinkedList<>();
         backtrack(track, n);
         return res;
@@ -35,7 +42,7 @@ public class NQueens {
         for (int col = 0; col < n; col++) {
             track.add(col);
             if (isValid(track)) {
-                backtrack(track, n);
+                backtrack(track, n + 1);
             }
             track.removeLast();
         }
@@ -50,12 +57,6 @@ public class NQueens {
             }
         }
         return true;
-    }
-
-    public static void main(String[] args) {
-        List<List<Integer>> lists = new NQueens().solveNQueens(8);
-        lists.forEach(System.out::println);
-
     }
 
 }
