@@ -7,7 +7,7 @@ package algo.uf;
 
 public class UF implements IUnionFind {
     /**
-     * 记录连通分量
+     * 记录连通分量的个数
      */
     private int count;
     /**
