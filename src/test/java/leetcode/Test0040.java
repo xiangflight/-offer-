@@ -19,7 +19,7 @@ class Test0040 {
     void getLeastNumbers() {
         int[] arr = {3, 2, 1};
         int k = 2;
-        int[] expected = {2, 1};
+        int[] expected = {1, 2};
         assertArrayEquals(expected, solution.getLeastNumbers(arr, k));
         arr = new int[] {0, 1, 2, 1};
         k = 1;
