@@ -20,6 +20,5 @@ class Test0003 {
         int expected = 3;
         String s = "abcabcbb";
         assertEquals(expected, solution.lengthOfLongestSubstring(s));
-        assertEquals(expected, solution.lengthOfLongestSubstring1(s));
     }
 }
