@@ -25,8 +25,6 @@ public class Solution0003 {
             if (i - len1 >= 0) {
                 freq[s2.charAt(i - len1) - 'a']++;
             }
-            System.out.println(Arrays.toString(freq));
-            System.out.println();
             if (allZeros(freq)) {
                 return true;
             }

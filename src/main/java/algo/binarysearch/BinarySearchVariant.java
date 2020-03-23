@@ -7,6 +7,42 @@ package algo.binarysearch;
 
 class BinarySearchVariant {
 
+    int leftBound(int[] arr, int target) {
+        int left = 0, right = arr.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] < target) {
+                left = mid + 1;
+            } else if (arr[mid] > target) {
+                right = mid - 1;
+            } else if (arr[mid] == target){
+                right = mid - 1;
+            }
+        }
+        if (left >= arr.length || arr[left] != target) {
+            return -1;
+        }
+        return left;
+    }
+
+    int rightBound(int[] arr, int target) {
+        int left = 0, right = arr.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] < target) {
+                left = mid + 1;
+            } else if (arr[mid] > target) {
+                right = mid - 1;
+            } else if (arr[mid] == target) {
+                left = mid + 1;
+            }
+        }
+        if (right < 0 || arr[right] != target) {
+            return - 1;
+        }
+        return right;
+    }
+
     /**
      * 在有序数组中找到第一个匹配的值
      *
