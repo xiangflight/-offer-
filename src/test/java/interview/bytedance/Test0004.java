@@ -26,9 +26,9 @@ class Test0004 {
     @Test
     @DisplayName("大数相加")
     void add() {
-        String num1 = "99";
+        String num1 = "199";
         String num2 = "99";
-        String expected = "198";
+        String expected = "298";
         assertEquals(expected, solution.add(num1, num2));
     }
 }
