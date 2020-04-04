@@ -8,36 +8,50 @@ package leetcode;
 public class Solution0076 {
 
     public String minWindow(String s, String t) {
+        int start = 0, minLen = Integer.MAX_VALUE;
+        // define a sliding window [left...right]
+        int left = 0, right = 0;
         int[] tFreq = new int[256];
         for (char c : t.toCharArray()) {
             tFreq[c]++;
         }
-        int[] sFreq = new int[256];
-        int count = 0;
-
-        int start = -1;
-        int min = s.length() + 1;
-
-        int l = 0, r = -1;
-        while (l < s.length()) {
-            if (r + 1 < s.length() && count < t.length()) {
-                r++;
-                sFreq[s.charAt(r)]++;
-                if (sFreq[s.charAt(r)] <= tFreq[s.charAt(r)]) {
-                    count++;
-                }
-            } else {
-                if (count == t.length() && r - l + 1 < min) {
-                    min = r - l + 1;
-                    start = l;
-                }
-                sFreq[s.charAt(l)]--;
-                if (sFreq[s.charAt(l)] < tFreq[s.charAt(l)]) {
-                    count--;
-                }
-                l++;
+        int diff = 0;
+        for (int val: tFreq) {
+            if (val != 0) {
+                diff++;
             }
         }
-        return -1 == start ? "" : s.substring(start, start + min);
+
+        int[] windowFreq = new int[256];
+
+        int match = 0;
+
+        while (right < s.length()) {
+            char c1 = s.charAt(right);
+
+            if (tFreq[c1] != 0) {
+                windowFreq[c1]++;
+                if (windowFreq[c1] == tFreq[c1]) {
+                    match++;
+                }
+            }
+            right++;
+
+            while (match == diff) {
+                if (right - left < minLen) {
+                    start = left;
+                    minLen = right - left;
+                }
+                char c2 = s.charAt(left);
+                if (tFreq[c2] != 0) {
+                    windowFreq[c2]--;
+                    if (windowFreq[c2] < tFreq[c2]) {
+                        match--;
+                    }
+                }
+                left++;
+            }
+        }
+        return minLen == Integer.MAX_VALUE ? "": s.substring(start, start + minLen);
     }
 }

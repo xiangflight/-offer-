@@ -8,26 +8,21 @@ package leetcode;
 public class Solution0003 {
 
     public int lengthOfLongestSubstring(String s) {
-        if (s == null || s.length() == 0) {
-            return 0;
-        }
-        /*
-         * 定义一个滑动窗口，[l...r]，那么它的长度是 r - l + 1
-         */
-         int l = 0, r = -1, res = 0;
-         int[] freq = new int[256];
-        /*
-         * 进行滑动
-         */
-        while (l < s.length()) {
-            if (r + 1 < s.length() && freq[s.charAt(r + 1)] == 0) {
-                r++;
-                freq[s.charAt(r)]++;
-            } else {
-                freq[s.charAt(l)]--;
-                l++;
+        // 定义一个滑动窗口
+        int left = 0, right = 0;
+        int[] window = new int[256];
+        int res = 0;
+
+        while (right < s.length()) {
+            char c1 = s.charAt(right);
+            window[c1]++;
+            right++;
+            while (window[c1] > 1) {
+                char c2 = s.charAt(left);
+                window[c2]--;
+                left++;
             }
-            res = Math.max(res, r - l + 1);
+            res = Math.max(res, right - left);
         }
         return res;
     }
