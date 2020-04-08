@@ -11,24 +11,39 @@ import java.util.List;
 public class Solution0022 {
 
     public static void main(String[] args) {
-        List<String> ans = new Solution0022().generateParenthesis(3);
+        List<String> ans = new Solution0022().generateParenthesis(2);
         System.out.println(ans);
     }
 
     public List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<>();
+        List<String> ans = new ArrayList<>();
         if (n == 0) {
-            res.add("");
-            return res;
+            return ans;
         }
-        for (int i = 0; i < n; i++) {
-            for (String left : generateParenthesis(i)) {
-                for (String right : generateParenthesis(n - 1 - i)) {
-                    res.add("(" + left + ")" + right);
-                }
-            }
+        StringBuilder track = new StringBuilder();
+        backtrack(n, n, track, ans);
+        return ans;
+    }
+
+    private void backtrack(int left, int right, StringBuilder track, List<String> ans) {
+        if (left > right) {
+            return;
         }
-        return res;
+        if (left < 0) {
+            return;
+        }
+        if (left == 0 && right == 0) {
+            ans.add(track.toString());
+            return;
+        }
+        track.append("(");
+        backtrack(left - 1, right, track, ans);
+        track.deleteCharAt(track.length() - 1);
+
+        track.append(")");
+        backtrack(left, right - 1, track, ans);
+        track.deleteCharAt(track.length() - 1);
+
     }
 
 }

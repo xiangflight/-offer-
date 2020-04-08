@@ -8,7 +8,7 @@ package leetcode;
 public class Solution0071 {
 
     public String simplifyPath(String path) {
-        return null;
+        return "";
     }
 
 }
