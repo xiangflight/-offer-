@@ -31,7 +31,6 @@ public class Solution0004 {
                 int p = i + j, q = i + j + 1, sum = multi + temp[q];
                 temp[p] += sum / 10;
                 temp[q] = sum % 10;
-                System.out.println(Arrays.toString(temp));
             }
         }
         // 防止leading zero
