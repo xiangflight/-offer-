@@ -1,5 +1,12 @@
 package interview.hw;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2020/8/25
@@ -36,7 +43,25 @@ package interview.hw;
 public class Solution019 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Map<String, Integer> map = new LinkedHashMap<>();
+        while (sc.hasNext()) {
+            String line = sc.nextLine();
+            String[] strArr = line.split("\\s+");
+            String fileName = strArr[0].substring(strArr[0].lastIndexOf("\\") + 1);
+            String lineNum = strArr[1];
+            String key = fileName.substring(Math.max(0, fileName.length() - 16)) + " " + lineNum;
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        }
+        int count = 0;
+        for (Map.Entry<String, Integer> entry: map.entrySet()) {
+            if (map.size() - count <= 8) {
+                System.out.println(entry.getKey() + " " + entry.getValue());
+            }
+            count++;
 
+        }
+        sc.close();
     }
 
 }
