@@ -6,4 +6,9 @@ package interview.hw;
  */
 
 public class Solution030 {
+
+    public static void main(String[] args) {
+
+    }
+
 }
