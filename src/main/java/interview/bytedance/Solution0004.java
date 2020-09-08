@@ -1,20 +1,18 @@
 package interview.bytedance;
 
-import java.util.Arrays;
-
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2020/3/22
  * <p>
  * 字符串相乘 与 字符串相加
  * <p>
- *    1 2
- *    1 2
- *  ----------
- *    2 4
- *  1 2
+ * 1 2
+ * 1 2
  * ----------
- *  1 4 4
+ * 2 4
+ * 1 2
+ * ----------
+ * 1 4 4
  */
 
 public class Solution0004 {
@@ -46,8 +44,8 @@ public class Solution0004 {
         StringBuilder sb = new StringBuilder();
         int m = num1.length(), n = num2.length();
         int[] temp = new int[Math.max(m, n) + 1];
-        String longer = m > n ? num1: num2;
-        String shorter = m > n ? num2: num1;
+        String longer = m > n ? num1 : num2;
+        String shorter = m > n ? num2 : num1;
         for (int i = longer.length() - 1; i >= 0; i--) {
             int x = longer.charAt(i) - '0';
             int y = (i >= (longer.length() - shorter.length())) ? shorter.charAt(i - (longer.length() - shorter.length())) - '0' : 0;
@@ -56,12 +54,12 @@ public class Solution0004 {
             temp[i + 1] += sum % 10;
         }
         // 防止 leading zero
-        for (int i: temp) {
+        for (int i : temp) {
             if (sb.length() != 0 || i != 0) {
                 sb.append(i);
             }
         }
-        return sb.length() == 0 ? "0": sb.toString();
+        return sb.length() == 0 ? "0" : sb.toString();
     }
 
 }
