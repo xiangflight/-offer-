@@ -26,7 +26,7 @@ public class GenerateParenthesis {
        if (left > right) {
            return;
        }
-       if (left < 0 || right < 0) {
+       if (left < 0) {
            return;
        }
        if (left == 0 && right == 0) {
