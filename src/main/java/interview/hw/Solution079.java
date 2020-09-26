@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
- * @date 2020/8/31
+ * @date 2020/9/11
  */
 
-public class Solution052 {
+public class Solution079 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,7 +23,7 @@ public class Solution052 {
 
     static void solution(String str1, String str2) {
         int res = calStringDistance(str1, str2);
-        System.out.println(res);
+        System.out.println(String.format("1/%d", res + 1));
     }
 
     static int calStringDistance(String str1, String str2) {
