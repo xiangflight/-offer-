@@ -2,7 +2,6 @@ package nio.channel;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
@@ -17,22 +16,8 @@ public class FileChannelExample {
         try {
             file = new RandomAccessFile("/Users/xiang/IdeaProjects/coding-interview/test.txt", "rw");
             FileChannel inChannel = file.getChannel();
-
-            ByteBuffer buf = ByteBuffer.allocate(3);
-
-            int byteRead = inChannel.read(buf);
-            while (byteRead != -1) {
-                System.out.println("Read " + byteRead);
-                buf.flip();
-
-                while (buf.hasRemaining()) {
-                    System.out.println((char) buf.get());
-                }
-
-                buf.clear();
-                byteRead = inChannel.read(buf);
-            }
-
+            inChannel.truncate(1);
+            inChannel.force(false);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

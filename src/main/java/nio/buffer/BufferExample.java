@@ -25,7 +25,7 @@ public class BufferExample {
             int bytesRead = inChannel.read(buf);
 
             while (bytesRead != -1) {
-
+                System.out.println("bytesRead: " + bytesRead);
                 // make buffer ready for read
                 buf.flip();
 
@@ -33,7 +33,6 @@ public class BufferExample {
                 while (buf.hasRemaining()) {
                     System.out.print((char) buf.get());
                 }
-
                 // make buffer ready for writing
                 buf.clear();
 
